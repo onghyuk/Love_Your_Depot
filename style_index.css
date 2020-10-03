@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+    
+.background{
+    position: absolute;
+    top:15vh;
+    left:10vw;
+    width: 80vw;
+}
+
+.animation{
+    margin: 5vw;
+    
+    width: 90vw;
+    height: 90vh;
+    
+    background-color: white;
+}
+
+.pc{
+    position: absolute;
+    top:0vh;
+    left:0vw;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+
+.mobile{
+    position: absolute;
+    top:0vh;
+    left:0vw;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+
+@media only screen and (max-width: 600px){
+    .pc {display:none}
+
+}
+
+@media only screen and (min-width: 600px){
+    .mobile {display:none}
+
+}
+
