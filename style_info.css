@@ -126,14 +126,28 @@ a{
     top:0px;
     left:0px;
     
-    width: 100%;
+    width: 80%;
     height: 70vh;
     
-    transition-delay: 2s;
-    transition-duration: 3s;
+    max-width: 1000px;
+    
+    
+   
+    
+    padding-left: 100px;
+    padding-top:50px;
+    color: white;
+    
+    font-size: 18px;
 }
 
 
+.list{
+    margin-left: 50px;
+    line-height: 20px;
+    
+    font-size: 15px;
+}
 
 .done{
     position: absolute;
