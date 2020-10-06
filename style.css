@@ -3,6 +3,12 @@
     src:url(ArkibalDisplay-Light.woff) 
 }
 
+@font-face{
+    font-family:"arkibal";
+    src:url(ArkibalDisplay-Regular.woff); 
+    font-weight:bold;
+}
+
 * {
   box-sizing: border-box;
     
@@ -60,7 +66,7 @@ a{
 
                 transition-duration: 2s;
                 
-                
+                font-weight:bold;
                 z-index: 10;
                 
                 font-size: 20px;
@@ -81,7 +87,7 @@ a{
                 background-color: white;
                 color: black;
 
-
+                font-weight:bold;
                 z-index: 10;
                 transition-duration: 2s;
 
@@ -176,7 +182,7 @@ a{
     text-align: left;
     padding: 10px;
     
-    
+    font-weight:bold;
 }
 
 .London{
@@ -199,6 +205,8 @@ a{
     
     text-align: left;
     padding: 10px;
+    
+    font-weight:bold;
 }
 
 .Locus{
@@ -221,6 +229,8 @@ a{
     
     text-align: left;
     padding: 10px;
+    
+    font-weight:bold;
 }
 
 
