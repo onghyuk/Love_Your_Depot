@@ -118,44 +118,34 @@ function myFunction() {
                                 Works of Jina Park (left), Hyein Lee (right)</p> 
                                 
                                 <img src="depot/4.jpg" alt="" class="ex-img">
-                                <p class="caption">Installation view of the Pallet, Painting Plate and Drawing Rack</p>            
+                                <p class="caption">Installation view of the Pallet, Painting Plate and Drawing Rack</p>        
+                                
+                                    
+                                            
                                 <div class="lovedetail">
                                    
-                                    <div id="greenpad">
-                                      <p>Greenpad <br>
-                                        Performance station
-                                    </p>
-                                        
-                                       <img src="love/1.-green-pad-_jmw.jpg" style="width: 80%; margin-top: 80px;">   
-                                       
-                                        
-                                    </div>
+       
                                     
-                                    <div id="tv">
-                                      <p>DepotTV <br> Mobile broadcasting station
-                                      </p>
-                                        
-                                       <img src="love/2.-depot-tv_1.jpg" style="width: 80%; margin-top: 80px;"> 
-                                        
-                                       <img src="love/2.-depot-tv-_2.jpg" style="width: 80%; margin-top: 30px;"> 
-                                         
-                                        
-                                    </div>
-                                    
-                                     <div id="eltra">
-                                      <p>ELLETRAVAILLE<br>
-                                        Botanical Studio / a model for the studio rental service
+                                    <div id="studio" class="stu">
+                                    <span onclick="this.parentElement.style.display='none'" class="close">X</span> 
+                                      <p class="detailtext">57Studio<br>
+                                        Media Lab/A model for a shared work spaces
+
 
                                       </p>
                                         
-                                       <img src="love/3.-etlra-.jpg" style="width: 80%; margin-top: 80px;"> 
+                                       <img src="love/5.-57studio.jpg" style="width: 80%; margin-top: 80px;"> 
                                         
-                                       <img src="love/3.-eltra_2.jpg" style="width: 80%; margin-top: 30px;"> 
+                                       
+                                        
+                                        <p>57 Studio began to do video documentations of exhibitions, plays, performances in 2013, and came into full scale in 2015. Since then it is working in cooperation with host/organizing institutes to make videos and media works that explain and advertise related contents.</p>
                                          
-                                        <p>Elletravaille proposes fresh narrative of natural objects. Elletravaille creates various emotions with no boundary by using plants. They collaborate with experts and make a new scene made up of plants.</p>
+                                        
                                     </div>
                                     
-                                    <div id="five">
+                                       <div id="five" class="fiv">
+                                        <span onclick="this.parentElement.style.display='none'" class="close">X</span>
+                                        
                                       <p>Five-Story Tower<br> 
                                     a model for city type storage device 
 
@@ -171,101 +161,116 @@ function myFunction() {
                                         
                                     </div>
                                     
-                                    <div id="studio">
-                                      <p>57Studio<br>
-                                        Media Lab/A model for a shared work spaces
-
+                                     <div id="eltra" class="elt">
+                                     <span onclick="this.parentElement.style.display='none'" class="close">X</span>
+                                     
+                                      <p>ELLETRAVAILLE<br>
+                                        Botanical Studio / a model for the studio rental service
 
                                       </p>
                                         
-                                       <img src="love/4.-Five-Story-Tower.jpg" style="width: 80%; margin-top: 80px;"> 
+                                       <img src="love/3.-etlra-.jpg" style="width: 80%; margin-top: 80px;"> 
                                         
-                                       <img src="love/4-1.jpg" style="width: 80%; margin-top: 30px;"> 
-                                        
-                                        <p>57 Studio began to do video documentations of exhibitions, plays, performances in 2013, and came into full scale in 2015. Since then it is working in cooperation with host/organizing institutes to make videos and media works that explain and advertise related contents.</p>
+                                       <img src="love/3.-eltra_2.jpg" style="width: 80%; margin-top: 30px;"> 
                                          
+                                        <p>Elletravaille proposes fresh narrative of natural objects. Elletravaille creates various emotions with no boundary by using plants. They collaborate with experts and make a new scene made up of plants.</p>
+                                    </div>                                            
+                                      <div id="tv" class="tvv">
+                                      
+                                      <span onclick="this.parentElement.style.display='none'" class="close">X</span>
+                                      
+                                      <p>DepotTV <br> Mobile broadcasting station
+                                      </p>
+                                        
+                                       <img src="love/2.-depot-tv_1.jpg" style="width: 80%; margin-top: 80px;"> 
+                                        
+                                       <img src="love/2.-depot-tv-_2.jpg" style="width: 80%; margin-top: 30px;"> 
+                                       </div>  
+                                    
+                                     <div id="greenpad" class="green">
+                                     
+                                     <span onclick="this.parentElement.style.display='none'" class="close">X</span>
+                                     
+                                      <p>Greenpad <br>
+                                        Performance station
+                                    </p>
+                                        
+                                       <img src="love/1.-green-pad-_jmw.jpg" style="width: 80%; margin-top: 80px;">   
+                                       
                                         
                                     </div>
-                                </div>    
+                                  
                                 </div>
-                                
+                                 </div>
+
+
 <script>
+
 function greenpad() {
   var x = document.getElementById("greenpad");
-  
-    
   if (x.style.display === "none") {
     x.style.display = "block";
-    x.style.zIndex = "6";    
   } else {
     x.style.display = "none";
-  }   
+  }
 }
-     
+    
 function tv() {
   var x = document.getElementById("tv");
-  
-    
   if (x.style.display === "none") {
     x.style.display = "block";
-    x.style.zIndex = "7";  
   } else {
     x.style.display = "none";
-  }   
-}
+  }
+}  
     
 function eltra() {
   var x = document.getElementById("eltra");
-  
-    
   if (x.style.display === "none") {
     x.style.display = "block";
-    x.style.zIndex = "8";    
   } else {
     x.style.display = "none";
-  }   
-}  
+  }
+}
     
 function five() {
   var x = document.getElementById("five");
-  
-    
   if (x.style.display === "none") {
     x.style.display = "block";
-    x.style.zIndex = "9";    
   } else {
     x.style.display = "none";
-  }   
-}  
+  }
+}
     
-function studio() {
+  function studio() {
   var x = document.getElementById("studio");
-  
-    
   if (x.style.display === "none") {
     x.style.display = "block";
-    x.style.zIndex = "10";    
   } else {
     x.style.display = "none";
-  }   
-}     
-</script>                               
+  }
+}   
+</script>                            
                                 
                             
 
                                 <div class="love">
-                                <h2>LUD associate</h2>    
-                                <img src="love/icon/1.green_pad.jpg" style="width: 30%;" class="icon" onclick="greenpad()">  
+                                <h2>LUD associate</h2> 
+ 
+                                <img src="love/icon/1.green_pad.jpg" style="width: 30%;" id="icon" class="greenpad" onclick="greenpad()">                               
+                               
+                                <img src="love/icon/2.-depot-tv.jpg" id="icon" class="tv" onclick="tv()"> 
+
                                 
-                                <img src="love/icon/2.-depot-tv.jpg" class="icon" onclick="tv()"> 
-                                 
-                                <img src="love/icon/3.-eltra--logo.jpg" class="icon" onclick="eltra()"> 
+                                <img src="love/icon/3.-eltra--logo.jpg" id="icon" class="eltra "onclick="eltra()"> 
+   
                                 
-                                <img src="love/icon/4.-five-story-tower.jpg" class="icon" onclick="five()"> 
+                                <img src="love/icon/4.-five-story-tower.jpg" id="icon" onclick="five()" class="five"> 
+                                  
+                                <img src="love/icon/5.-57-studio.jpg" id="icon" onclick="studio()" class="studio"> 
+                               
                                 
-                                <img src="love/icon/5.-57-studio.jpg" class="icon" onclick="studio()"> 
-                                
-                                <img src="love/icon/6.-team-depot.jpg" class="icon" style="margin-bottom: 50px;">            
+                                <img src="love/icon/6.-team-depot.jpg" id="icon" style="margin-bottom: 50px;">            
                                 
                                     
                                 </div>
