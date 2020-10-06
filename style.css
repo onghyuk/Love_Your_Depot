@@ -1,15 +1,24 @@
+@font-face {
+    font-family:"arkibal";
+    src:local(/web_font/ArkibalDisplay-Heavy.woff) format(woff);
+}
+
 * {
   box-sizing: border-box;
     
     
 }
 
+p{
+    font-family: arkibal;
+}
+
 body{
-    background-color: black;
+    background-color: #fceb00;
     
     width: 120vw;
     
-    font-family: sans-serif;
+    font-family: arkibal;
 }
 
 a{
@@ -45,7 +54,7 @@ a{
                 text-align: left;
 
                 cursor: pointer;
-                color: white;
+                color: black;
 
                 overflow: hidden;
 
@@ -185,7 +194,8 @@ a{
     
     
     
-    background-color:yellow;
+    background-color:#fceb00;
+    border: 1px solid black;
     
     text-align: left;
     padding: 10px;
@@ -204,9 +214,9 @@ a{
     min-width: 80px;
     min-height: 80px;
     
-    border:1px solid white;
+    border:1px solid black;
     
-    background-color: blakc;
+    background-color: black;
     color: white;
     
     text-align: left;
@@ -229,7 +239,7 @@ a{
     z-index: 1;
     
     
-    border: 3px dotted yellow;
+    border: 3px dotted black;
     
     transition-delay: 2s;
     transition-duration: 3s;
@@ -246,7 +256,7 @@ a{
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: yellow;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -387,7 +397,7 @@ a{
     
     background-color: white;
     
-    z-index: 10;
+    z-index: 9;
     overflow: hidden;
     
     padding: 5px;
@@ -442,6 +452,7 @@ a{
     
     background-color: white;
     
+    
     line-height: 15vh;
     
     transition-duration: 3s;
@@ -453,13 +464,13 @@ a{
 .depot_channel_box:hover{
     position: absolute;
     top:-75vh;
-    left: 45vw;
+    left: 30vw;
     
     vertical-align: bottom;
     
     cursor: pointer;
-    width: 50vw;
-    height: 100vh;
+    width: 70vw;
+    height: 120vh;
     
     
     float: right;
@@ -467,6 +478,7 @@ a{
     z-index: 10;
     
     background-color: white;
+    color: black;
     
     transition-duration: 2s;
     transition-delay: 0.5s;
@@ -525,6 +537,7 @@ a{
     line-height: 50vh;
     
     background-color: white;
+    
     opacity: 1;
    
     z-index: 9;
@@ -579,6 +592,7 @@ a{
     width: 20vw;
     height: 45vh;
     background-color: white;
+    
     opacity: 1;
     
     line-height: 45vh;
