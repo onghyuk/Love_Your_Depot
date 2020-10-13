@@ -57,35 +57,46 @@
                                        
                                        <div class="pages"> 
                                            <div class="ex_img">
-                                           <img src="img1.png" alt="img1" style="width: 100%;">
+                                           <img src="London_ins_img/2.PNG" alt="img1" style="width: 100%;">
                                                
                                                <div class="buttons" style="text-align: center;">
-                                               <span class="click" onclick="myFunction()"></span>
                                                
-                                               <span class="click2" onclick="myFunction2()"></span>
+                                               <span id="click" class="yellowbutton disappear" onclick="yellowbutton ()"></span>
+                                               
+                                               <span id="click2" class="yellowbutton disappear" onclick="yellowbutton2()"></span>
+                                               
+                                               <span id="click3" class="yellowbutton appear" onclick="yellowbutton3()"></span>
+                                               
+                                               <span id="click4" class="yellowbutton appear" onclick="yellowbutton4()"></span>
                                                
                                                </div>
                                            
                                            </div>
 
                                            <div id="archive_img1" style="display: none;">  
-                                               <img src="1.jpg" style="width: 100%;"> 
-                                               <p style="font-size: 12px; color: white">Day 3 Ice Sculpture, 2017</p>
-                                            
+                                               <img src="London_arc_img/1.jpg" style="width: 100%;"> 
+                                               <p style="font-size: 12px; color: black; ">Day 3 Ice Sculpture, 2017</p>
                                            </div>
                                            
                                            <div id="archive_img2" style="display: none;">  
-                                               <img src="3.jpg" style="width: 100%;"> 
-                                               <p style="font-size: 12px; color: white">Untitled 4, 2017</p>
-                                               
-                                               
+                                               <img src="London_arc_img/3.jpg" style="width: 100%;"> 
+                                               <p style="font-size: 12px; color: black; float: right;">Untitled 4, 2017</p>
                                            </div>
                                            
+                                           <div id="archive_img3" style="display: none;">  
+                                               <img src="London_arc_img/4.jpg" style="width: 100%;"> 
+                                               <p style="font-size: 12px; color: black">Stone typing machine, 2017</p>
+                                           </div>
+                                           
+                                           <div id="archive_img4" style="display: none;">  
+                                               <img src="London_arc_img/5.jpg" style="width: 100%;"> 
+                                               <p style="font-size: 12px; color: black">5 Years with a little bit of Luck, 2013</p>
+                                           </div>
                                            
                                        </div>
                                        
 <script>
-function myFunction() {
+function yellowbutton() {
   var x = document.getElementById("archive_img1");
   
     
@@ -98,7 +109,7 @@ function myFunction() {
       
 }
    
-function myFunction2() {
+function yellowbutton2() {
   var x = document.getElementById("archive_img2");
   
     
@@ -109,14 +120,40 @@ function myFunction2() {
   }
     
       
-}    
+} 
+    
+function yellowbutton3() {
+  var x = document.getElementById("archive_img3");
+  
+    
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+    
+      
+}
+    
+function yellowbutton4() {
+  var x = document.getElementById("archive_img4");
+  
+    
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+    
+      
+}
     
 </script>                               
                                        
                                        
                                        <div class="pages"> 
                                            <div class="ex_img">
-                                           <img src="img2.png" alt="img2" style="width: 120%;">
+                                           <img src="London_ins_img/8.PNG" alt="img2" style="width: 120%;">
                                            </div>
 
                                            <div class="archive_img">  
@@ -127,7 +164,7 @@ function myFunction2() {
                                        
                                        <div class="pages"> 
                                            <div class="ex_img">
-                                           <img src="img3.png" alt="img3" style="width: 120%;">
+                                           <img src="London_ins_img/9.PNG" alt="img3" style="width: 120%;">
                                            </div>
 
                                            <div class="archive_img">  
