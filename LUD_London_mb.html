@@ -13,17 +13,11 @@
 <script>
     
 function Index() {
-  var x = document.getElementById("index");
-  
-    
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-    
-      
-}
+  document.getElementById("index").style.width = "65vw";
+}    
+function closeIndex() {
+  document.getElementById("index").style.width = "0";
+}  
     
     
     
@@ -50,23 +44,25 @@ function Index() {
                 
                 </div>
                 
-                <div id="index" style="display:none;">
+                <div id="index">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeIndex()">X</a>
+                   <div class="indextext">
                    <a href="about.html"><p><b>About</b></p></a>
                     <a href="contact.html"><p><b>Contact</b></p></a>
                    
-                   <a href="Seoul/LUD_Seoul.html"><p style="margin-left: 30px;"><b>Love Your Depot Seoul</b></p></a>
+                   <a href="Seoul/LUD_Seoul_mb.html"><p style="margin-left: 30px; border: 0.5px solid black; padding: 5px;"><b>Love Your Depot Seoul</b></p></a>
                    <p style="margin-left: 80px;">Depot</p>
                    <p style="margin-left: 80px;">LUD Accociate</p>
                    <p style="margin-left: 120px;">Team Depot</p>
                    
-                   <a href="LUD_London.html"><p style="margin-left: 30px;"><b>Love Your Depot London</b></p></a>
-                   <p style="margin-left: 80px;">Dept</p>
-                   <p style="margin-left: 80px;">CH1</p>
-                   <p style="margin-left: 80px;">CH2</p>
+                   <a href="LUD_London.html"><p style="margin-left: 30px; background-color: yellow; padding: 5px;"><b>Love Your Depot London</b></p></a>
+                   <p style="margin-left: 80px;">Depot</p>
+                   <a href="ch1.html"><p style="margin-left: 80px; text-decoration: underline;">CH1</p></a>
+                   <a href="ch2"><p style="margin-left: 80px; text-decoration: underline;">CH2</p></a>
                    <p style="margin-left: 80px;">Arci-Depot Channel</p>
                    
-                   <p style="margin-left: 30px;"><b>Love Your Depot Locus+</b></p>
-                    
+                   <p style="margin-left: 30px; background-color: black; color: white; padding: 5px;"><b>Love Your Depot Locus+</b></p>
+                    </div>
                 </div>
             </div>
              
@@ -147,32 +143,8 @@ function showSlides(n) {
                                 </div>
                                 
                                 
-<script>                              
-function onair1() {
-  var x = document.getElementById("ch1");
-  
-    
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-    
-      
-}  
-    
-function onair2() {
-  var x = document.getElementById("ch2");
-  
-    
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-    
-      
-} 
+<script>                                   
+
     
 function openDepotch() {
   document.getElementById("depotCH").style.width = "100vw";
@@ -182,7 +154,7 @@ function closeNav() {
 }    
 </script>
                                 <div class="ongoing" >
-                                    <div class="ch1box " onclick="onair1()">
+                                   <a href="ch1.html"> <div class="ch1box">
                                         <div class="ch_info">
                                             <p>ch1</p>
                                             <div class="on">
@@ -196,6 +168,7 @@ function closeNav() {
                                             <p>12.25 13:00 - Happy X-mas! </p>
                                         </div>
                                     </div>
+                                    </a>
                                     
                                     
                                     

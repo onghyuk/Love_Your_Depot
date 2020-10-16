@@ -82,23 +82,28 @@ a{
             }
 
 #index{
-    position: absolute;
-    top:0px;
-    left: 68vw;
+    position: fixed;
+    top:0;
+    left: 0;
     
     
-    width: 32vw;
-    height: 500px;
-    z-index: 8;
+    width: 0;
+    height: 100vh;
+    z-index: 10;
     background-color: white;
     
-    padding-top: 40px;
-    padding-left: 25px;
-   
+    
+    
+    transition-duration: 0.7s;
+    
+    overflow: hidden;
 }
 
             
-
+.indextext{
+    margin-left: 30px;
+    margin-top:50px;
+}
 
 .container{
     position: relative;
@@ -141,7 +146,7 @@ a{
     left:0px;
     
     width: 100%;
-    height: 75vh;
+    height: 55vh;
     
 }
 
@@ -166,7 +171,7 @@ a{
     
     
     width: 100%;
-    height: 75vh;
+    height: 55vh;
     
     
     
@@ -276,8 +281,8 @@ a{
     z-index: 9;
     
     
-    margin-bottom: 100vh;
-    margin-right: 0vw;
+    
+    
 }
 
 
@@ -319,7 +324,7 @@ a{
 .closebtn{
     position: absolute;
     top:15px;
-    left: 15px;
+    right: 15px;
     
     font-size: 30px;
     
@@ -394,12 +399,11 @@ a{
 
 #ch1, #ch2{
 
+    width: 97vw;
+    height: 120vh;
     
-    width: 100vw;
-    height: 100vh;
     
     
-    padding: 20px;
     background-color: white;
    
 }
@@ -412,13 +416,13 @@ a{
 .ch1{
     position: absolute;
     left: 0vw;
-    top:-38vh; 
+    top:0vh; 
 }
 
 .ch2{
     position: absolute;
-    left: 25vw;
-    top:40vh; 
+    left: 0;
+    top:0vh; 
 }
 
 .live-station{
