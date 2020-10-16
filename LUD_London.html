@@ -10,9 +10,28 @@
     
     
     
-
- 
+<script>
     
+function Index() {
+  var x = document.getElementById("index");
+  
+    
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+    
+      
+}
+    
+    
+    
+    
+</script>
+ 
+
+       
 </head>
 
 
@@ -24,14 +43,30 @@
 <body>
     <div class="body">   
             <div class="header">
-                <img src="logo_london.png" alt="logo" style="min-width: 300px; width: 40vw;">
+                <img src="logo_london.png" alt="logo" style="min-width: 300px; width: 40vw;3">
                 
-                <div class="index">
-                <ul>Index</ul>
+                <div class="index" onclick="Index()">
+                    <p>Index</p> 
                 
-                <a href="about.html"><li class="index-text">about</li></a>
+                </div>
                 
-                <a href="contact.html"><li class="index-text">contact</li></a>
+                <div id="index" style="display:none;">
+                   <a href="about.html"><p><b>About</b></p></a>
+                    <a href="contact.html"><p><b>Contact</b></p></a>
+                   
+                   <a href="Seoul/LUD_Seoul.html"><p style="margin-left: 30px;"><b>Love Your Depot Seoul</b></p></a>
+                   <p style="margin-left: 80px;">Depot</p>
+                   <p style="margin-left: 80px;">LUD Accociate</p>
+                   <p style="margin-left: 120px;">Team Depot</p>
+                   
+                   <a href="LUD_London.html"><p style="margin-left: 30px;"><b>Love Your Depot London</b></p></a>
+                   <p style="margin-left: 80px;">Dept</p>
+                   <p style="margin-left: 80px;">CH1</p>
+                   <p style="margin-left: 80px;">CH2</p>
+                   <p style="margin-left: 80px;">Arci-Depot Channel</p>
+                   
+                   <p style="margin-left: 30px;"><b>Love Your Depot Locus+</b></p>
+                    
                 </div>
             </div>
              
@@ -40,7 +75,7 @@
                     <div class="exhibition">
                         <a href="Seoul/LUD_Seoul.html"><div class="Seoul"><p>Seoul</p></div></a>
                         <a href="LUD_London.html"><div class="London"><p>London</p></div></a>
-                        <div class="Locus"><p>Locus</p></div>
+                        <div class="Locus"><p>Locus+</p></div>
                         
                     
                     </div>
@@ -59,36 +94,36 @@
                                            <div class="ex_img">
                                            <img src="London_ins_img/2.PNG" alt="img1" style="width: 100%;">
                                                
-                                               <div class="buttons" style="text-align: center;">
                                                
-                                               <span id="click" class="yellowbutton disappear" onclick="yellowbutton ()"></span>
                                                
-                                               <span id="click2" class="yellowbutton disappear" onclick="yellowbutton2()"></span>
+                                               <span id="click" class="yellowbutton appear" onclick="yellowbutton ()"></span>
                                                
-                                               <span id="click3" class="yellowbutton appear" onclick="yellowbutton3()"></span>
+                                               <span id="click2" class="yellowbutton appear2" onclick="yellowbutton2()"></span>
                                                
-                                               <span id="click4" class="yellowbutton appear" onclick="yellowbutton4()"></span>
+                                               <span id="click3" class="yellowbutton appear3" onclick="yellowbutton3()"></span>
                                                
-                                               </div>
+                                               <span id="click4" class="yellowbutton appear4" onclick="yellowbutton4()"></span>
+                                               
+                                              
                                            
                                            </div>
 
-                                           <div id="archive_img1" style="display: none;">  
+                                           <div id="archive_img1" class="disappear" style="display: none;">  
                                                <img src="London_arc_img/1.jpg" style="width: 100%;"> 
                                                <p style="font-size: 12px; color: black; ">Day 3 Ice Sculpture, 2017</p>
                                            </div>
                                            
-                                           <div id="archive_img2" style="display: none;">  
+                                           <div id="archive_img2" class="disappear" style="display: none;">  
                                                <img src="London_arc_img/3.jpg" style="width: 100%;"> 
                                                <p style="font-size: 12px; color: black; float: right;">Untitled 4, 2017</p>
                                            </div>
                                            
-                                           <div id="archive_img3" style="display: none;">  
+                                           <div id="archive_img3" class="disappear" style="display: none;">  
                                                <img src="London_arc_img/4.jpg" style="width: 100%;"> 
                                                <p style="font-size: 12px; color: black">Stone typing machine, 2017</p>
                                            </div>
                                            
-                                           <div id="archive_img4" style="display: none;">  
+                                           <div id="archive_img4" class="disappear" style="display: none;">  
                                                <img src="London_arc_img/5.jpg" style="width: 100%;"> 
                                                <p style="font-size: 12px; color: black">5 Years with a little bit of Luck, 2013</p>
                                            </div>
@@ -153,7 +188,7 @@ function yellowbutton4() {
                                        
                                        <div class="pages"> 
                                            <div class="ex_img">
-                                           <img src="London_ins_img/8.PNG" alt="img2" style="width: 120%;">
+                                           <img src="London_ins_img/8.PNG" alt="img2" style="width: 100%;">
                                            </div>
 
                                            <div class="archive_img">  
@@ -164,7 +199,7 @@ function yellowbutton4() {
                                        
                                        <div class="pages"> 
                                            <div class="ex_img">
-                                           <img src="London_ins_img/9.PNG" alt="img3" style="width: 120%;">
+                                           <img src="London_ins_img/9.PNG" alt="img3" style="width: 100%;">
                                            </div>
 
                                            <div class="archive_img">  
@@ -210,34 +245,123 @@ function showSlides(n) {
                                 </div>
                                 
                                 
-                                
-                            
-
-                                <div class="ongoing">
+<script>                              
+function onair1() {
+  var x = document.getElementById("ch1");
+  
+    
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+    
+      
+}  
+    
+function onair2() {
+  var x = document.getElementById("ch2");
+  
+    
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+    
+      
+} 
+    
+function openDepotch() {
+  document.getElementById("depotCH").style.width = "50vw";
+}    
+function closeNav() {
+  document.getElementById("depotCH").style.width = "0";
+}    
+</script>
+                                <div class="ongoing" >
+                                    <div class="ch1box " onclick="onair1()">
+                                        <div class="ch_info">
+                                            <p>ch1</p>
+                                            <div class="on">
+                                            <div class="onair"></div>
+                                            <p>now on-air!</p>
+                                            </div>
+                                        </div>
+                                        <div class="ch_list">
+                                            <p>10.16 13:00 - Opening!</p>
+                                            <p>10.21 13:00 - Talks with Kim </p>
+                                            <p>12.25 13:00 - Happy X-mas! </p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="depot_channel" onclick="openDepotch()">
+                                        <p>Archi-Depot Channel</p>
+                                    </div>
+                                    
+                                    <div id="depotCH">
+                                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+                                        
+                                        
+                                    </div>
+                                    
+                                    <div class="ch2box" onclick="onair2()">
+                                        <div class="ch_info">
+                                            <p>ch2</p>
+                                            <div class="on" style="display: none;">
+                                            <div class="onair"></div>
+                                            <p>now on-air!</p>
+                                            </div>
+                                        </div>
+                                        <div class="ch_list">
+                                            <p>10.16 13:00 - Opening!</p>
+                                            <p>10.21 13:00 - Talks with Kim </p>
+                                            <p>12.25 13:00 - Happy X-mas! </p>
+                                        </div>
+                                    </div>
+                                    
+                              
                                   
+                                  
+                                  
+                                  
+                                   <div id="ch1" class="ch1" style="display:  none">
+                                    <span onclick="this.parentElement.style.display='none'" class="close">X</span>
+                                    
+                                    <div id="chheader">
+                                    
+                                    <div class="live-station">
+                                    <iframe src="https://video.ibm.com/embed/23969647" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no" width="100%" height="100%">
+                                    </iframe>
+                                    </div> 
+                                    
+                                    <div class="chat">
+                                    <iframe src="https://video.ibm.com/socialstream/23969647?rel=0" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no" width="100%" height="100%"></iframe>
+                                    </div> 
+                                    </div> 
+                                   </div>
+                                   
+                                   
+                                    <div id="ch2" class="ch2" style="display:  none">
+                                    <span onclick="this.parentElement.style.display='none'" class="close">X</span>
+                                    <div id="chheader">
                                     <div class="live-station">
 
                                     <iframe src="https://video.ibm.com/embed/23969647" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no" width="100%" height="100%">
-                                    </iframe>  
-
-                                    </div>
+                                    </iframe>
+                                    </div> 
                                     
-                                    <div class="live-station-cover"><p class="covertext">Live station</p></div>   
-                                        
-                                        
                                     <div class="chat">
                                     <iframe src="https://video.ibm.com/socialstream/23969647?rel=0" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no" width="100%" height="100%"></iframe>
-                                    </div>
+                                    </div> 
+                                    </div> 
                                     
-                                    <div class="chat-cover"><p class="covertext">Chat box</p></div>
-                                   
-                                    <div class="depot_channel_box"><p class=covertext>Depot channel</p>
-                                    
-                                    <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/is2RZg_I1ks?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    
-                                    </div>
+                                   </div>
                                     
                                     
+                                  
+                                  
+                                     
                                     
                                     
                                     

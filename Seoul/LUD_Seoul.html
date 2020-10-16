@@ -68,9 +68,32 @@ function five() {
     
       
 }
+    
+    
+function Index() {
+  var x = document.getElementById("index");
+  
+    
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+    
+      
+}
+   
 </script>       
 
     
+    
+
+    
+ 
+    
+    
+    
+   
 </head>
 
 
@@ -84,12 +107,28 @@ function five() {
             <div class="header">
                 <a href="LUD_Seoul.html"><img src="logo_seoul.png" alt="logo" style="min-width: 300px; width: 40vw;"></a>
                 
-                <div class="index">
-                <ul>Index</ul>
+                <div class="index" onclick="Index()">
+                    <p>Index</p> 
                 
-                <a href="../about.html"><li class="index-text">about</li></a>
+                </div>
                 
-                <a href="../contact.html"><li class="index-text">contact</li></a>
+                <div id="index" style="display:none;">
+                   <a href="about.html"><p><b>About</b></p></a>
+                    <a href="contact.html"><p><b>Contact</b></p></a>
+                   
+                   <a href="LUD_Seoul.html"><p style="margin-left: 30px;"><b>Love Your Depot Seoul</b></p></a>
+                   <p style="margin-left: 80px;">Depot</p>
+                   <p style="margin-left: 80px;">LUD Accociate</p>
+                   <p style="margin-left: 120px;">Team Depot</p>
+                   
+                   <a href="../LUD_London.html"><p style="margin-left: 30px;"><b>Love Your Depot London</b></p></a>
+                   <p style="margin-left: 80px;">Dept</p>
+                   <p style="margin-left: 80px;">CH1</p>
+                   <p style="margin-left: 80px;">CH2</p>
+                   <p style="margin-left: 80px;">Arci-Depot Channel</p>
+                   
+                   <p style="margin-left: 30px;"><b>Love Your Depot Locus+</b></p>
+                    
                 </div>
             </div>
              
@@ -107,14 +146,15 @@ function five() {
                     
                     
                     <div class="content">
-                           
+                            <div class="aboutbox">
                             <div class="about">
-                            <img src="all_logo.png" style="width: 50%;">
+                            <img src="all_logo.png" style="width: 70%;">
                                  
-                            <p style="margin-top: 20px; font-size: 18px; font-style: normal;">Love Your Depot is a new institution that supports the life of artwork based on its physical reality.</p>
+                            <p class="about_text">Love Your Depot is a new institution that supports the life of artwork based on its physical reality.</p>
                             
                                 <a href="javascript:myFunction()"><span class="click">see more</span></a>
-                            
+                             </div> 
+                             
                             <div id="seemore" style="display: none;">
                               <div class="seemoretext">
                               <p>We reserve judgement on works of art until our artists have enough time to understand their works and decide the destiny of each work. </p>  
@@ -134,7 +174,8 @@ function five() {
                               </div>
                               
                             </div>
-                            </div> 
+                           
+                            </div>           
 
                                        
                                  
@@ -186,12 +227,12 @@ function five() {
                                  </p> 
                                  -->
                                  
-                                <img src="love/icon/1.green_pad.jpg" style="width: 18%" id="icon" class="greenpad" onclick="greenpad()">                               
+                                <img src="love/icon/1.green_pad.jpg" id="icon" class="greenpad" onclick="greenpad()">                               
                                
-                                <img src="love/icon/2.-depot-tv.jpg" style="margin-bottom:  40px;"id="icon" class="tv" onclick="tv()"> 
+                                <img src="love/icon/2.-depot-tv.jpg" id="icon" class="tv" onclick="tv()"> 
 
                                 
-                                <img src="love/icon/3.-eltra--logo.jpg" style="width: 25%" id="icon" class="eltra "onclick="eltra()"> 
+                                <img src="love/icon/3.-eltra--logo.jpg" id="icon" class="eltra "onclick="eltra()"> 
    
                                 
                                 <img src="love/icon/4.-five-story-tower.jpg" id="icon" onclick="five()" class="five"> 
@@ -199,7 +240,7 @@ function five() {
                                 <img src="love/icon/5.-57-studio.jpg" id="icon" onclick="studio()" class="studio"> 
                                
                                 
-                                <a href="team_depot.html" target="_blank"><img src="love/icon/6.-team-depot.jpg" style="width: 25%" id="icon" style="margin-bottom: 50px;"> </a>           
+                                <a href="team_depot.html" target="_blank"><img src="love/icon/6.-team-depot.jpg"  id="icon" style="margin-bottom: 50px;"> </a>           
                                 
                                     
                                 </div>

@@ -30,7 +30,7 @@ p{
 }
 
 body{
-    background-color: #fceb00;
+    background-color: #f7e83e;
     
     width: 120vw;
     
@@ -58,9 +58,9 @@ a{
 }
 
             .index{
-                position: absolute;
-                top: 0px;
-                left: 70vw;
+             position: absolute;
+             top: 0px;
+             left: 70vw;
 
                 width: 130px;
                 height: 50px;
@@ -72,45 +72,32 @@ a{
                 cursor: pointer;
                 color: black;
 
-                overflow: hidden;
-
-                transition-duration: 2s;
+                
                 
                 font-weight:bold;
                 font-family: arkibal;
-                z-index: 10;
+                z-index: 9;
                 
                 font-size: 20px;
             }
 
-            .index:hover{
-                position: absolute;
-                top: 0px;
-                left: 70vw;
+#index{
+    position: absolute;
+    top:0px;
+    left: 68vw;
+    
+    
+    width: 32vw;
+    height: 500px;
+    z-index: 8;
+    background-color: white;
+    
+    padding-top: 40px;
+    padding-left: 25px;
+   
+}
 
-                width: 130px;
-                height: 150px;
-
-                display: inline;
-
-
-                cursor: pointer;
-                background-color: white;
-                color: black;
-
-                font-weight:bold;
-                font-family: arkibal;
-                
-                z-index: 10;
-                transition-duration: 2s;
-
-            }
-
-            .index-text{
-                list-style-type: none;
-
-                margin-left: 35px;
-            }
+            
 
 
 .container{
@@ -121,7 +108,7 @@ a{
     width: 100vw;
     height: 90vh;
     
-    grid-template-columns: 8% 1fr;
+    grid-template-columns: 25px 1fr;
     display: grid;
     
     
@@ -132,7 +119,7 @@ a{
     top:0px;
     left:0px;
     
-     width: 100%;
+    width: 100%;
     height: 90vh;
     
 }
@@ -155,10 +142,8 @@ a{
     left:0px;
     
     width: 100%;
-    height: 70vh;
+    height: 75vh;
     
-    transition-delay: 2s;
-    transition-duration: 3s;
 }
 
 
@@ -178,77 +163,100 @@ a{
 .Seoul{
     position: relative;
     top:0px;
-    left: 0px;
-    
-    float: right;
-    
-    width: 75%;
-    height: 10%;
-    
-    min-width: 80px;
-    min-height: 80px;
+    left: -10px;
     
     
+    
+    width: 30px;
+    height: 45px;
+    
+    
+    
+    z-index: 10;
     
     background-color: white;
     
-    text-align: left;
-    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
     
     font-weight:bold;
     font-family: arkibal;
+    color: white;
+    overflow: hidden;
+    
+    transition-duration: 0.7s;
+}
+
+.Seoul:hover{
+    width: 150px;
+    color: black;
+    
+    transition-duration: 0.7s;
 }
 
 .London{
     position: relative;
     top:0px;
-    left: 0px;
-    
-    float: right;
-    
-    width: 75%;
-    height: 10%;
-    
-    min-width: 80px;
-    min-height: 80px;
+    left: -10px;
     
     
+    
+    width: 30px;
+    height: 45px;
+    
+    z-index: 10;
     
     background-color:#fceb00;
-    border: 1px solid black;
     
-    text-align: left;
-    padding: 10px;
     
-    font-weight:bold;
+    text-align: center;
+    vertical-align: middle;
+    
+    font-weight: bold;
     font-family: arkibal;
+    
+    color: #fceb00;
+    overflow: hidden;
+    
+    transition-duration: 0.7s;
+}
+
+.London:hover{
+    width: 150px;
+    color: black;
 }
 
 .Locus{
     position: relative;
     top:0px;
-    left: 0px;
+    left: -10px;
     
-    float: right;
+    width: 30px;
+    height: 45px;
     
-    width: 75%;
-    height: 10%;
+    z-index: 10;
     
-    min-width: 80px;
-    min-height: 80px;
-    
-    border:1px solid black;
     
     background-color: black;
-    color: white;
+    color: black;
     
-    text-align: left;
-    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
     
     font-weight:bold;
     font-family: arkibal;
+    
+    overflow: hidden;
+    
+    transition-duration: 0.7s;
 }
 
+.Locus:hover{
+    width: 150px;
+    transition-duration: 0.7s;
+    color: white;
+    
+}
 
 
 
@@ -256,19 +264,17 @@ a{
     
     
     width: 100%;
-    height: 70vh;
+    height: 75vh;
     
     
     
     
     
-    z-index: 1;
+    z-index: 5;
     
     
     border: 3px dotted black;
     
-    transition-delay: 2s;
-    transition-duration: 3s;
 }
 
 
@@ -289,7 +295,7 @@ a{
   border-radius: 0 3px 3px 0;
   user-select: none;
     
- z-index: 9;    
+ z-index: 8;    
 }
 
 
@@ -297,7 +303,7 @@ a{
   right: 0;
   border-radius: 3px 0 0 3px;
       
-    z-index: 9;
+    z-index: 7;
 }
 
 
@@ -308,31 +314,23 @@ a{
     left: 0px;
     
     width: 100%;
-    height: 80%;
-    
-    overflow: hidden;
-    
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-    display: none;
+    height: 90%;
     
     z-index: 8;
 }
 
 .ex_img{
-    position: absolute;
-    top:10px;
-    left: 50px;
+    position: relative;
+    top:0px;
+    left: 35px;
     
-    width: 45%;
-    height: 100%;
+    width: 58%;
+    
     
     min-height: 300px;
     
+    padding-bottom: 30%;
     
-    overflow: hidden;
 }
 
 .buttons{
@@ -345,7 +343,7 @@ a{
 }
 
 .yellowbutton{
-cursor: pointer;
+  cursor: pointer;
   height: 15px;
   width: 15px;
     
@@ -356,50 +354,70 @@ cursor: pointer;
   
   opacity: 1;
     
-   z-index: 10;  
+  z-index: 10;  
     
-  
-      
-    
- display: inline-block;
+  display: inline-block;
 }
 
 .disappear{
   animation-name: dots;
-  animation-duration: 25s;
-  animation-delay: 1s; 
-  animation-fill-mode: both; 
+  animation-duration: 3s;
+  animation-delay: 6s; 
+  animation-fill-mode: both;  
+    
+ 
 }
 
 .appear{
   animation-name: dotsappear;
-  animation-duration: 25s;
-  animation-delay: 1s; 
-  animation-fill-mode: both;  
+  animation-duration: 3s;
+  animation-delay: 2s; 
+  animation-fill-mode: both;
+}
+
+.appear2{
+  animation-name: dotsappear;
+  animation-duration: 3s;
+  animation-delay: 4s; 
+  animation-fill-mode: both;
+}
+
+.appear3{
+  animation-name: dotsappear;
+  animation-duration: 3s;
+  animation-delay: 4.5s; 
+  animation-fill-mode: both;
+}
+
+.appear4{
+  animation-name: dotsappear;
+  animation-duration: 3s;
+  animation-delay: 5s; 
+  animation-fill-mode: both;
 }
 
 #click{
-  position: relative;
-  top:30%;
-  left: 35%; 
+  position: absolute;
+  top:20%;
+  left: 22%; 
 }
 
 #click2{
-  position: relative;
-  top:55%;
-  left: 65%; 
+  position: absolute;
+  top:20%;
+  left: 43%; 
 }
 
 #click3{
-  position: relative;
-  top:45%;
-  left: 25%; 
+  position: absolute;
+  top:40%;
+  left: 26%; 
 }
 
 #click4{
-  position: relative;
-  top:65%;
-  left: 95%; 
+  position: absolute;
+  top:38%;
+  left: 36%; 
 }
 
 
@@ -444,6 +462,8 @@ cursor: pointer;
     height: 30%;
     z-index: 10;  
 }
+
+
 .map{
     position: absolute;
     top:5px;
@@ -455,33 +475,30 @@ cursor: pointer;
     
     background-color: white;
     
-    z-index: 9;
+    z-index: 7;
     overflow: hidden;
     
     padding: 5px;
     
-    transition-duration: 3s; 
+    transition-duration: 3s;
+    display: inline-block;
 }
 
 .map:hover{
-    position: absolute;
-    top:5px;
-    right: 5px;
-    float: right;
+   
     
     width: 80vw;
     height: 80vh;
-    
-    background-color: white;
     
     padding: 50px;
     z-index: 10;
     transition-duration: 3s; 
 }
 
+
 .ongoing{
     position: relative;
-    top:-0px;
+    top:0px;
     left:0px;
     
     width: 100%;
@@ -491,70 +508,154 @@ cursor: pointer;
     
     
     margin-bottom: 100vh;
-    margin-right: 30vw;
+    margin-right: 0vw;
 }
 
-.depot_channel_box{
-    position: relative;
-    top: 0px;
-    left: 60vw;
-    
-    cursor: pointer;
-    width: 20vw;
-    height: 20vh;
-    
-    
-    display: inline-block;
-    
-    z-index: 10;
-    
-    background-color: white;
-    
-    
-    line-height: 15vh;
-    
-    transition-duration: 3s;
-    transition-delay: 0.5s;
-    
-    overflow: hidden;
-}
 
-.depot_channel_box:hover{
+.depot_channel{
     position: absolute;
-    top:-75vh;
-    left: 30vw;
+    top:0px;
+    left: 50vw;
     
-    vertical-align: bottom;
+    width: 40vw;
+    height: 40vh;
+    
+    
+    background-color: white;
+    
+    text-align: center;
+    border: 1px solid black;
     
     cursor: pointer;
-    width: 70vw;
-    height: 120vh;
+}
+
+#depotCH{
+    height: 100vh;
+    width: 0;
+    position: fixed;
     
+    overflow-x: hidden;
     
-    float: right;
-    
+    top:0;
+    right: 0;
     z-index: 10;
     
     background-color: white;
-    color: black;
+    transition-duration: 0.5s;
     
-    transition-duration: 2s;
-    transition-delay: 0.5s;
+    padding-top: 30px;
+    
 }
 
+.closebtn{
+    position: absolute;
+    top:15px;
+    left: 15px;
+    
+    font-size: 30px;
+    
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+}
 
+.ch1box{
+    position: absolute;
+    top:0px;
+    left: 10vw;
+    
+    width: 32vw;
+    height: 32vh;
+    background-color: white;
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    cursor: pointer;
+}
 
+.ch2box{
+    position: absolute;
+    top:40vh;
+    left: 55vw;
+    
+    width: 32vw;
+    height: 32vh;
+    background-color: white;
+    
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    cursor: pointer;
+}
 
+.ch_info{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.on{
+    font-weight: normal;
+    font-size: 15px;
+}
+.onair{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    
+    animation-name: dots;
+    animation-duration: 1.5s;
+    animation-direction: alternate-reverse; 
+    animation-iteration-count: infinite;
+}
+
+.ch_list{
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+#ch1, #ch2{
+
+    
+    width: 70vw;
+    height: 70vh;
+    
+    
+    padding: 20px;
+    background-color: white;
+   
+}
+
+#chheader{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.ch1{
+    position: absolute;
+    left: 0vw;
+    top:-38vh; 
+}
+
+.ch2{
+    position: absolute;
+    left: 25vw;
+    top:40vh; 
+}
 
 .live-station{
-    position: absolute;
-    top: 45vh;
-    left: 50px;
     
-    width: 50vw;
-    height: 60vh;
     
-    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+    
+    opacity: 1;
     z-index: 10;
    
     
@@ -564,96 +665,31 @@ cursor: pointer;
     
 }
 
-.live-station:hover{
-    position: absolute;
-    top: 45vh;
-    left: 50px;
-    
-    width: 50vw;
-    height: 60vh;
-    
-    opacity: 1;
-    z-index: 10;
-   
-    
-    margin-bottom: 50vh;
-    margin-right: 30vw;
-    
-    transition-duration: 1.5s;
-    transition-delay: 0s;
-    
-}
 
-.live-station-cover{
-    position: absolute;
-    top: 45vh;
-    left: 50px;
-    
-    width: 50vw;
-    height: 60vh;
-    
-    line-height: 50vh;
-    
-    background-color: white;
-    
-    opacity: 1;
-   
-    z-index: 9;
-    
-}
 
-.covertext{
-    text-align: center;
-    top:50%;
-    
-    font-size: 13.5px;
-}
 
 .chat{
-    position: absolute;
-    top: 0vh;
-    left: 150px;
+   
     
-    width: 20vw;
-    height: 45vh;
+    width: 100%;
+    height: 100%;
     
-    opacity: 0.1;
+    opacity: 1;
     
-    z-index: 10;
+    z-index: 9;
     
     transition-duration: 1s;
     transition-delay: 8s;
 }
 
-
-.chat:hover{
+.close{
     position: absolute;
-    top: 0vh;
-    left: 150px;
+    top:25px;
+    right: 25px;
     
-    width: 20vw;
-    height: 45vh;
-    
-    opacity: 1;
-    
+    font-size: 25px;
+    float:right;
+    cursor: pointer;
+    color: black;
     z-index: 10;
-    
-    transition-duration: 1s;
-    transition-delay: 0s;
-}
-
-.chat-cover{
-    position: absolute;
-    top: 0vh;
-    left: 150px;
-    
-    width: 20vw;
-    height: 45vh;
-    background-color: white;
-    
-    opacity: 1;
-    
-    line-height: 45vh;
-    
-    z-index: 9;
 }
