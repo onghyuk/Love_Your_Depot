@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LUD</title>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    
+<link rel="stylesheet" href="style_mb.css">
+    
+    
+    
+<script>
+    
+function Index() {
+  var x = document.getElementById("index");
+  
+    
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+    
+      
+}
+    
+    
+    
+    
+</script>
+ 
+
+       
+</head>
+
+
+
+
+
+
+
+<body>
+    <div class="body">   
+            <div class="header">
+                <img src="logo.png" alt="logo" style="min-width: 200px; width: 60vw;">
+                
+                <div class="index" onclick="Index()">
+                    <p>Index</p> 
+                
+                </div>
+                
+                <div id="index" style="display:none;">
+                   <a href="about.html"><p><b>About</b></p></a>
+                    <a href="contact.html"><p><b>Contact</b></p></a>
+                   
+                   <a href="Seoul/LUD_Seoul.html"><p style="margin-left: 30px;"><b>Love Your Depot Seoul</b></p></a>
+                   <p style="margin-left: 80px;">Depot</p>
+                   <p style="margin-left: 80px;">LUD Accociate</p>
+                   <p style="margin-left: 120px;">Team Depot</p>
+                   
+                   <a href="LUD_London.html"><p style="margin-left: 30px;"><b>Love Your Depot London</b></p></a>
+                   <p style="margin-left: 80px;">Dept</p>
+                   <p style="margin-left: 80px;">CH1</p>
+                   <p style="margin-left: 80px;">CH2</p>
+                   <p style="margin-left: 80px;">Arci-Depot Channel</p>
+                   
+                   <p style="margin-left: 30px;"><b>Love Your Depot Locus+</b></p>
+                    
+                </div>
+            </div>
+             
+            
+            <div class="container">
+                    
+                    <div class="content">
+                              
+                                <div class="storage">
+                                   
+                                   <div id="London">
+                                       
+                                        
+                                       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                       
+                                       <div class="pages"> 
+                                           <div class="ex_img">
+                                           <img src="London_ins_img/2.PNG" alt="img1" style="width: 100%;">
+                                   
+                                           </div>
+ 
+                                       </div>
+                                            
+                                       
+                                       <div class="pages"> 
+                                           <div class="ex_img">
+                                           <img src="London_ins_img/8.PNG" alt="img2" style="width: 100%;">
+                                           </div>
+
+                                          
+                                       </div>
+                                       
+                                       
+                                       <div class="pages"> 
+                                           <div class="ex_img">
+                                           <img src="London_ins_img/9.PNG" alt="img3" style="width: 100%;">
+                                           </div>
+
+                                          
+                                       </div>
+                                       
+                                       
+                                       
+                                   </div>
+                                
+                                    
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("pages");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+                                    
+                                    
+                                </div>
+                                
+                                
+<script>                              
+function onair1() {
+  var x = document.getElementById("ch1");
+  
+    
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+    
+      
+}  
+    
+function onair2() {
+  var x = document.getElementById("ch2");
+  
+    
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+    
+      
+} 
+    
+function openDepotch() {
+  document.getElementById("depotCH").style.width = "100vw";
+}    
+function closeNav() {
+  document.getElementById("depotCH").style.width = "0";
+}    
+</script>
+                                <div class="ongoing" >
+                                    <div class="ch1box " onclick="onair1()">
+                                        <div class="ch_info">
+                                            <p>ch1</p>
+                                            <div class="on">
+                                            <div class="onair"></div>
+                                            <p>now on-air!</p>
+                                            </div>
+                                        </div>
+                                        <div class="ch_list">
+                                            <p>10.16 13:00 - Opening!</p>
+                                            <p>10.21 13:00 - Talks with Kim </p>
+                                            <p>12.25 13:00 - Happy X-mas! </p>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    
+                                    <a href="ch2"><div class="ch2box">
+                                        <div class="ch_info">
+                                            <p>ch2</p>
+                                            <div class="on" style="display: none;">
+                                            <div class="onair"></div>
+                                            <p>now on-air!</p>
+                                            </div>
+                                        </div>
+                                        <div class="ch_list">
+                                            <p>10.16 13:00 - Opening!</p>
+                                            <p>10.21 13:00 - Talks with Kim </p>
+                                            <p>12.25 13:00 - Happy X-mas! </p>
+                                        </div>
+                                    </div></a>
+                                    
+                                  <div class="depot_channel" onclick="openDepotch()">
+                                        <p>Archi-Depot Channel</p>
+                                    </div>
+                                    
+                                    <div id="depotCH">
+                                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+                                        
+                                        
+                                    </div>
+                                  
+                                  
+                                  
+                                  
+                                   <div id="ch1" class="ch1" style="display:  none">
+                                    <span onclick="this.parentElement.style.display='none'" class="close">X</span>
+                                    
+                                    <div id="chheader">
+                                    
+                                    <div class="live-station">
+                                    <iframe src="https://video.ibm.com/embed/23969647" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no" width="100%" height="100%">
+                                    </iframe>
+                                    </div> 
+                                    
+                                    <div class="chat">
+                                    <iframe src="https://video.ibm.com/socialstream/23969647?rel=0" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no" width="100%" height="100%"></iframe>
+                                    </div> 
+                                    </div> 
+                                   </div>
+                                   
+                                   
+                                    <div id="ch2" class="ch2" style="display:  none">
+                                    <span onclick="this.parentElement.style.display='none'" class="close">X</span>
+                                    <div id="chheader">
+                                    <div class="live-station">
+
+                                    <iframe src="https://video.ibm.com/embed/23969647" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no" width="100%" height="100%">
+                                    </iframe>
+                                    </div> 
+                                    
+                                    <div class="chat">
+                                    <iframe src="https://video.ibm.com/socialstream/23969647?rel=0" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no" width="100%" height="100%"></iframe>
+                                    </div> 
+                                    </div> 
+                                    
+                                   </div>
+                                    
+                                    
+                                  
+                                  
+                                     
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </div>
+
+                    </div>
+            </div>
+    
+<script>
+
+function channel() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}    
+</script>    
+   
+                
+      
+    </div>
+</body>
+</html>
