@@ -35,6 +35,9 @@ body{
     width: 120vw;
     
     font-family: arkibal;
+    width: 100vw;
+    margin-left: 5px;
+    
 }
 
 a{
@@ -291,7 +294,7 @@ a{
     top:0px;
     left: 0vw;
     
-    width: 100vw;
+    width: 100%;
     height: 40vh;
     
     
@@ -338,7 +341,7 @@ a{
     top:0px;
     left: 0vw;
     
-    width: 100vw;
+    width: 100%;
     height: 32vh;
     background-color: white;
     
@@ -355,7 +358,7 @@ a{
     top:0vh;
     left: 0vw;
     
-    width: 100vw;
+    width: 100%;
     height: 32vh;
     background-color: white;
     
