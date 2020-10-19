@@ -65,12 +65,12 @@ body{
     
 }
 
-@media screen and (max-width: 600px){
+@media all and (max-width: 600px){
     .pc {display:none}
     .container {display: none}
 }
 
-@media screen and (min-width: 600px){
+@media all and (min-width: 600px){
     .mobile {display:none}
     .container2 {display: none}
 }
