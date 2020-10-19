@@ -51,7 +51,7 @@ body{
     width: 100vw;
     height: 100vh;
     
-    z-index: 9;
+    
 }
 
 .mobile{
@@ -62,16 +62,16 @@ body{
     width: 100vw;
     height: 100vh;
     
-    z-index: 9;
+    
 }
 
 @media screen and (max-width: 600px){
-    .pc {display:none; z-index: 10}
+    .pc {display:none}
     .container {display: none}
 }
 
 @media screen and (min-width: 600px){
-    .mobile {display:none;  z-index: 10}
+    .mobile {display:none}
     .container2 {display: none}
 }
 
