@@ -7,8 +7,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     
 <link rel="stylesheet" href="style_mb.css">
-    
-    
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
+
+
+
+
+
+ 
     
 <script>
     
@@ -35,6 +41,9 @@ function closeIndex() {
 
 
 <body>
+   
+
+      
     <div class="body">   
             <div class="header">
                 <img src="logo.png" alt="logo" style="min-width: 200px; width: 60vw; margin-left: 10px;">
@@ -76,69 +85,57 @@ function closeIndex() {
                                    <div id="London">
                                        
                                         
-                                       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                                       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                     <div class="swiper-container">
+                                      
+                                        <div class="swiper-wrapper">  
                                        
-                                       <div class="pages"> 
-                                           <div class="ex_img">
-                                           <img src="London_ins_img/2.PNG" alt="img1" style="width: 100%;">
-                                   
-                                           </div>
- 
-                                       </div>
+                                       
+                                       <div class="swiper-slide">
                                             
+                                               <div class="ex_img">
+                                               <img src="London_ins_img/2.PNG" alt="img1" style="width: 100%;">
+                                               </div>
+                                           
+                                       </div>     
                                        
-                                       <div class="pages"> 
-                                           <div class="ex_img">
-                                           <img src="London_ins_img/8.PNG" alt="img2" style="width: 100%;">
-                                           </div>
-
-                                          
+                                       <div class="swiper-slide">
+                                            
+                                               <div class="ex_img">
+                                               <img src="London_ins_img/8.PNG" alt="img2" style="width: 100%;">
+                                               </div>  
+                                           
+                                      </div>
+                                      
+                                       <div class="swiper-slide">                 
+                                           
+                                               <div class="ex_img">
+                                               <img src="London_ins_img/9.PNG" alt="img3" style="width: 100%;">
+                                               </div>   
+                                           
+                                       </div>
                                        </div>
                                        
-                                       
-                                       <div class="pages"> 
-                                           <div class="ex_img">
-                                           <img src="London_ins_img/9.PNG" alt="img3" style="width: 100%;">
-                                           </div>
+                                       <div class="swiper-pagination"></div>
 
-                                          
-                                       </div>
-                                       
-                                       
+
+                                    </div>   
                                        
                                    </div>
-                                
-                                    
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
+    
+                                                            
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.min.js"></script>
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+                            
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("pages");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
 </script>
-                                    
+
+                                
                                     
                                 </div>
                                 
