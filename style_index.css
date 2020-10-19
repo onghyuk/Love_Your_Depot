@@ -65,7 +65,7 @@ body{
     
 }
 
-@media all and (max-width: 600px){
+@media all and (min-width: 200px) and (max-width: 600px) {
     .pc {display:none}
     .container {display: none}
 }
