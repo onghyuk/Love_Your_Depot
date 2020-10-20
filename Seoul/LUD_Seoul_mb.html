@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     
 <link rel="stylesheet" href="style_Seoul_mb.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">   
     
     
 <script>
@@ -178,79 +179,68 @@ function closeIndex() {
                                 <div class="storage">
                                 
                                 
-                                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                                
+                                 
                                 <h2>Depot</h2>
                                 
+                                <div class="swiper-container">
+                                <div class="swiper-wrapper">  
                                 
-                                
-                                 <div class="pages">     
+                                 <div class="swiper-slide">     
                                  <img src="depot/2-0.jpg" alt="" class="ex-img">  
                                  <p class="caption">Installation view of the Pallet in the Depot<br>
                                  Minouk Lim(left), Woojin Jeon (top-center), Seunghye Hong(right)
                                  </p>
                                  </div>
                                     
-                                 <div class="pages">     
+                                 <div class="swiper-slide">     
                                  <img src="depot/2-1.jpg" alt="" class="ex-img"> 
                                  <p class="caption">Installation view of the Pallet in the Depot<br>
                                  Works of Seoyoung Chung (left and bottom-center), Hye Jin Kim (top-center) </p> 
                                 </div>
                                    
-                                <div class="pages">         
+                                <div class="swiper-slide">         
                                  <img src="depot/2-2.jpg" alt="" class="ex-img">  
                                  <p class="caption">Installation view of the Pallet in the Depot<br>
                                  Works of Seoyoung Chung
                                  </p>
                                 </div>
                                   
-                                <div class="pages">      
+                                <div class="swiper-slide">      
                                 <img src="depot/2-3.jpg" alt="" class="ex-img">  
                                    <p class="caption">Works of Jewyo Rhii in the Depot<br>Crates from Düsseldorf
                                  </p>
                                     </div>
-                                <div class="pages">          
+                                <div class="swiper-slide">          
                                 <img src="depot/3.jpg" alt="" class="ex-img">
                                 <p class="caption">Installation view of the Painting Plate in the Depot<br>
                                 Works of Jina Park (left), Hyein Lee (right)</p> 
                                     </div>
-                                    <div class="pages">    
+                                    
+                                <div class="swiper-slide">    
                                 <img src="depot/4.jpg" alt="" class="ex-img">
                                 <p class="caption">Installation view of the Pallet, Painting Plate and Drawing Rack</p>        </div>
+                                </div>
                                 
+                                <div class="swiper-scrollbar"></div>
+                                </div>
                                     
                                             
                                 
                                  </div>
+                                 
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
+                            
+ <script>
+    var swiper = new Swiper('.swiper-container', {
+      scrollbar: {
+        el: '.swiper-scrollbar',
+        hide: true,
+      },
+    });
+  </script> 
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("pages");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>     
+ 
                          
                                 
                             
