@@ -19,6 +19,18 @@
     to {opacity: 1;}
 }
 
+@keyframes dotap1 {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes dotsdiap {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 * {
   box-sizing: border-box;
     
@@ -370,17 +382,19 @@ a{
 }
 
 .appear{
-  animation-name: dotsappear;
-  animation-duration: 3s;
+  animation-name: dotap1;
+  animation-duration: 8s;
   animation-delay: 2s; 
   animation-fill-mode: both;
+  animation-iteration-count: infinite;
 }
 
 .appear2{
-  animation-name: dotsappear;
-  animation-duration: 3s;
-  animation-delay: 4s; 
+  animation-name: dotsdiap;
+  animation-duration: 8s;
+  animation-delay: 2s; 
   animation-fill-mode: both;
+  animation-iteration-count: infinite;
 }
 
 .appear3{
