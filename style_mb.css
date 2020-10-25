@@ -33,7 +33,8 @@ body{
     background-color: #f7e83e;
     
     
-    
+    max-width: 100%;
+    overflow-x: hidden;
     font-family: arkibal;
     
     

@@ -26,7 +26,8 @@ h1{
 body{
     margin: 0xp;
     
-    
+     max-width: 100%;
+    overflow-x: hidden;
     font-family: arkibal;
    
     
