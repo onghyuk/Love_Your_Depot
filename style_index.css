@@ -51,10 +51,10 @@ body{
 .poster2{
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
     
     
-    width: 90vh;
+    
+    width: 100%;
 }
 
 .container, .container2{
@@ -64,8 +64,14 @@ body{
     width: 100vw;
     height: 100%;
     
-    padding-top: 20px;
+    
 }
+
+.container2
+{
+    background-color: white;
+}
+
 
 .window{
     width: 80vw;
