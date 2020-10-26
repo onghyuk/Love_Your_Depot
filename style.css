@@ -579,15 +579,15 @@ a{
 .ch1box{
     position: absolute;
     top:0px;
-    left: 10vw;
+    left: 6vw;
     
-    width: 32vw;
+    width: 38vw;
     height: 32vh;
     background-color: white;
     
     
     display: grid;
-    grid-template-columns: 1fr 1.3fr;
+    grid-template-columns: 1fr 1.8fr;
     cursor: pointer;
 }
 
@@ -596,12 +596,12 @@ a{
     top:40vh;
     left: 55vw;
     
-    width: 32vw;
+    width: 38vw;
     height: 32vh;
     background-color: white;
     
     display: grid;
-    grid-template-columns: 1fr 1.3fr;
+    grid-template-columns: 1fr 1.8fr;
     cursor: pointer;
 }
 
@@ -632,14 +632,14 @@ a{
 .ch_list{
     width: 100%;
     text-align: left;
-    font-size: 15px;
+    font-size: 13px;
     padding-top: 20px;
 }
 
 #ch1, #ch2{
 
     
-    width: 75vw;
+    width: 70vw;
     height: 70vh;
     
     
@@ -710,3 +710,39 @@ a{
     color: black;
     z-index: 10;
 }
+
+.vricon{
+    width: 8%;
+    position: relative;
+    top:32vh;
+    left: 12vw;
+}
+
+.open{
+    position: absolute;
+    width: 60vw;
+    height: 90vh;
+    
+    border: 1px solid black;
+    top:-65vh;
+    left: 15vw;
+    
+    z-index: 10;
+    background-color: white;
+    
+    
+    padding: 65px;
+    
+    
+}
+
+.openbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    text-align: left;
+    
+}
+
+.list{
+line-height: 25px;}
