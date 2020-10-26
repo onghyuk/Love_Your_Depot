@@ -32,8 +32,16 @@ body{
     font-family: arkibal;
     background-color: #fbfbfb;
     
-    overflow: hidden;
-    overflow-y: scroll;
+
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.example {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
 }
 
 a{
