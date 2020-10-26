@@ -172,7 +172,7 @@ a{
     padding-top: 50px;
     padding-bottom: 150px;
     padding-left: 100px;
-    padding-right: 50px;
+    padding-right: 100px;
     margin-bottom: 50px;
 }
 
@@ -568,7 +568,7 @@ a{
     padding: 5px;
     border-bottom: 3px dotted yellow; 
     
-    height: 180px;
+    height: 150px;
     
      
 }
@@ -587,7 +587,7 @@ a{
     
     border-top: 3px dotted yellow;
     border-right: 3px dotted yellow;
-    border-bottom: 3px dotted yellow;
+    
   
 }
     
@@ -596,7 +596,7 @@ a{
     left: 0;
     top: 0;
     text-align: center;
-    height: 180px;
+    height: 150px;
     
     overflow: hidden;
 
@@ -612,6 +612,7 @@ a{
     
     .sunmin, .jisu, .yerim, .jiho, .choong, .dong, .han, .young, .jihee, .junwon {
     left: 0px;
+      
     background-color: black;
     color: white;
     
@@ -629,9 +630,49 @@ a{
     border: 1px solid white;
     
     padding-top: 50px;
-    padding-left: 10px;
-    padding-right: 10px;    
+    padding-left: 20px;
+    padding-right: 20px;    
     margin-bottom: 50px; 
+    }
+    
+    .sunmin{
+        top:80vh;
+    }
+    
+    .jisu{
+        top:102vh;
+    }
+    
+    .yerim{
+        top:122vh;
+    }
+    
+    .jiho{
+        top:144vh;
+    }
+    
+    .choong{
+        top:166vh;
+    }
+    
+    .dong{
+        top:188vh;
+    }
+    
+    .han{
+        top:210vh;
+    }
+    
+    .young{
+        top:232vh;
+    }
+    
+    .jihee{
+        top:254vh;
+    }
+    
+    .junwon{
+        top:276vh;
     }
 }
 
