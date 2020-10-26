@@ -59,12 +59,12 @@ a{
     display: inline-block;
     
     width: 80%;
-    max-width: 450px;
+    max-width: 600px;
     max-height: 50vh;
     line-height: 28px;
     
     
-    overflow-y: scroll;
+    
 }
 
            
