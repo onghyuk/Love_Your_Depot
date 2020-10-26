@@ -345,7 +345,14 @@ a{
 }
 
 
-
+.word{
+    position: relative;
+    top:-50px;
+    display: none;
+    width: 50%;
+    cursor: pointer;
+    
+}
 
 .show{
     display: block;
@@ -363,9 +370,11 @@ a{
     
     margin-left: auto;
     margin-right: auto;
-    cursor: pointer;
-    
-    
+    cursor: pointer;    
+}
+
+#icon:hover + .word{
+    display: block;  
 }
 
 .name{
