@@ -611,9 +611,7 @@ a{
     }
     
     .sunmin, .jisu, .yerim, .jiho, .choong, .dong, .han, .young, .jihee, .junwon {
-    position: absolute;
-    top:60vh;
-    left:0;
+    
     background-color: black;
     color: white;
     
