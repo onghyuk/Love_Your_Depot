@@ -32,17 +32,15 @@ body{
     font-family: arkibal;
     background-color: #fbfbfb;
     
-
+  
+    -ms-overflow-style: none; 
 }
 
-.example::-webkit-scrollbar {
+html::-webkit-scrollbar {
   display: none;
 }
 
-.example {
-  -ms-overflow-style: none;
-  scrollbar-width: none; 
-}
+
 
 a{
     text-decoration: none;
