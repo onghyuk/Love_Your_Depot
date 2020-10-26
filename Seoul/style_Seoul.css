@@ -291,7 +291,7 @@ a{
     
     width: 70%;
     height: auto;
-    overflow: scroll;
+    
     
     z-index: 10;
     
@@ -299,6 +299,8 @@ a{
     margin-right: auto;
     
     text-align: center;
+    
+    
     
 }
 
