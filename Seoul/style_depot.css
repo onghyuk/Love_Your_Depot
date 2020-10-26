@@ -26,7 +26,7 @@ h1{
 body{
     
     
-    width: 120vw;
+    width: 100%;
     
     font-family: arkibal;
     
@@ -44,32 +44,35 @@ a{
 .header{
     position: relative;
     top: 5vh;
-    left: 5vw;
+    left: 15vw;
     
-    width: 100vw;
+    width: 100%;
     height: 50vh;
     
    
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 0.5fr 1.5fr;
     color: white;
 }
 
 .about-text{
     display: inline-block;
     
+    width: 80%;
     max-width: 450px;
     line-height: 28px;
+    
+    margin-bottom: 50px;
 }
 
            
 
 .container{
     position: relative;
-    top:0px;
+    top:50px;
     left:8vw;
     
-    width: 98vw;
+    width: 98%;
     height: auto;
     
     grid-template-columns: 250px 1fr;
@@ -136,19 +139,18 @@ a{
     top: 0;
     text-align: center;
     height: 250px;
-    padding: 10px;
+    
     overflow: hidden;
 
     border-bottom: 3px dotted yellow; 
     cursor: pointer;
+    vertical-align: middle;
 }
 
 
 
-.sunmin {
-    position: absolute;
-    top:70vh;
-    left: 15vw;
+.sunmin, .jisu, .yerim, .jiho, .choong, .dong, .han, .young, .jihee, .junwon {
+    
     background-color: black;
     color: white;
     
@@ -172,6 +174,75 @@ a{
     margin-bottom: 50px;
 }
 
+.sunmin{
+    position: absolute;
+    top:70vh;
+    left: 15vw;
+}
+
+.jisu{
+    position: absolute;
+    top:105vh;
+    left: 15vw;
+}
+
+.yerim{
+    position: absolute;
+    top:140vh;
+    left: 15vw;
+}
+
+.jiho{
+    position: absolute;
+    top:175vh;
+    left: 15vw;
+}
+
+.choong{
+    position: absolute;
+    top:210vh;
+    left: 15vw;
+}
+
+.dong{
+    position: absolute;
+    top:245vh;
+    left: 15vw;
+}
+
+.han{
+   position: absolute;
+    top:280vh;
+    left: 15vw; 
+}
+
+.young{
+   position: absolute;
+    top:315vh;
+    left: 15vw;  
+}
+
+.jihee{
+   position: absolute;
+    top:350vh;
+    left: 15vw;  
+}
+
+.junwon{
+   position: absolute;
+    top:385vh;
+    left: 15vw;   
+}
+
+
+
+
+
+
+
+
+
+
 .close{
     position: absolute;
     top:25px;
@@ -183,6 +254,10 @@ a{
     color: white;
     z-index: 10;
 }
+
+
+
+
 
 .video{
     margin-top: 50px;
@@ -452,6 +527,81 @@ a{
     font-weight: bold;
 }
 
+@media all and (min-width: 200px) and (max-width: 600px) {
+    .header{
+    position: relative;
+    top: 5vh;
+    left: 0;
+    
+    width: 100%;
+    height: 50vh;
+    
+   
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    color: white;
+}
+    
+  .container{
+    position: relative;
+    top:50px;
+    left:0;
+    
+    width: 100%;
+    height: auto;
+    
+    grid-template-columns: 130px 1fr;
+    display: grid;
+    
+    margin-top: 130px; 
+    
+}  
+    .namebox{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 3px dotted yellow; 
+    
+    height: 180px;
+    
+     
+}
+    
+    .content
+{
+    position: relative;
+    top:0px;
+    left:0px;
+    
+    
+    width: 97%;
+    height: auto;
+    
+    text-align: center;
+    
+    border-top: 3px dotted yellow;
+    border-right: 3px dotted yellow;
+    border-bottom: 3px dotted yellow;
+  
+}
+    
+    .contentbox{
+    position: relative;
+    left: 0;
+    top: 0;
+    text-align: center;
+    height: 180px;
+    
+    overflow: hidden;
 
+    border-bottom: 3px dotted yellow; 
+    cursor: pointer;
+    vertical-align: middle;
+}
+    
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
 
 
