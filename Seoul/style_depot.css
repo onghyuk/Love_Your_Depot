@@ -111,7 +111,7 @@ a{
     padding: 50px;
     border-bottom: 3px dotted yellow; 
     
-    height: 250px;
+    height: 35vh;
     
      
 }
@@ -140,7 +140,7 @@ a{
     left: 0;
     top: 0;
     text-align: center;
-    height: 250px;
+    height: 35vh;
     
     overflow: hidden;
 
