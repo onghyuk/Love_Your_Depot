@@ -16,7 +16,7 @@
 
 @keyframes dotsappear {
     from {opacity: 0;}
-    to {opacity: 1;}
+    to {opacity: 1; display: none;}
 }
 
 @keyframes dotap1 {
