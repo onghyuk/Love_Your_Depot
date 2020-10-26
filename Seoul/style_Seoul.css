@@ -152,7 +152,7 @@ a{
     width: 80vw;
     height: auto;
     
-    overflow: hidden;
+    overflow-x: hidden;
     
     margin-left: -50px;
 }
