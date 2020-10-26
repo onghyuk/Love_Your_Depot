@@ -60,7 +60,7 @@ a{
     
     width: 80%;
     max-width: 450px;
-    max-height: 5vh;
+    max-height: 50vh;
     line-height: 28px;
     
     
@@ -543,6 +543,11 @@ a{
     grid-template-columns: 0.5fr 1.5fr;
     color: white;
 }
+    
+    .about-text{
+        max-height: 50vh;
+        overflow-y: scroll;
+    }
     
   .container{
     position: relative;
