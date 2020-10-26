@@ -57,6 +57,9 @@ a{
 
 .about-text{
     display: inline-block;
+    
+    max-width: 450px;
+    line-height: 28px;
 }
 
            
@@ -158,7 +161,7 @@ a{
     max-width: 1000px;
     
     
-    line-height: 20px;
+    line-height: 28px;
     
     border: 1px solid white;
     
