@@ -392,8 +392,9 @@ a{
 .ch_list{
     width: 100%;
     text-align: left;
-    font-size: 15px;
-    padding-top: 20px;
+    font-size: 13px;
+    
+    line-height: 20px;
 }
 
 #ch1, #ch2{
