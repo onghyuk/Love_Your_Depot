@@ -653,7 +653,7 @@ a{
     
     padding: 20px;
     background-color: white;
-   
+    z-index: 9;
 }
 
 #chheader{
