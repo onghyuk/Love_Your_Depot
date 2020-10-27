@@ -285,9 +285,9 @@ a{
 }
 
 .lovedetail{
-    position: relative;
-    top:-50vh;
-    left:-130px;
+    position: absolute;
+    top:18vh;
+    left:6vw;
     
     width: 70%;
     height: auto;
