@@ -590,7 +590,7 @@ a{
     left: 6vw;
     
     width: 38vw;
-    height: 32vh;
+    height: 34vh;
     background-color: white;
     
     
@@ -605,7 +605,7 @@ a{
     left: 55vw;
     
     width: 38vw;
-    height: 32vh;
+    height: 34vh;
     background-color: white;
     
     display: grid;
@@ -641,7 +641,11 @@ a{
     width: 100%;
     text-align: left;
     font-size: 13px;
-    padding-top: 20px;
+    padding-top: 5px;
+    line-height: 18px;
+    padding-right: 20px;
+    
+    overflow-y: scroll;
 }
 
 #ch1, #ch2{
@@ -722,7 +726,7 @@ a{
 .vricon{
     width: 8%;
     position: relative;
-    top:32vh;
+    top:34vh;
     left: 12vw;
 }
 
@@ -739,7 +743,9 @@ a{
     background-color: white;
     
     
-    padding: 65px;
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
     
     
 }
@@ -753,4 +759,5 @@ a{
 }
 
 .list{
-line-height: 25px;}
+line-height: 25px;
+padding-right: 30px;}
