@@ -560,10 +560,18 @@ a{
     background-color: white;
     transition-duration: 0.5s;
     
-    padding-top: 30px;
+    padding-top: 50px;
+    
     
 }
 
+.depotchvideo{
+    padding: 25px;
+}
+
+.video{
+    margin-bottom: 50px;
+}
 .closebtn{
     position: absolute;
     top:15px;
