@@ -316,8 +316,12 @@ a{
     background-color: white;
     transition-duration: 0.5s;
     
-    padding-top: 30px;
+    padding-top: 50px;
     
+}
+
+.video{
+    margin-bottom: 30px;
 }
 
 .closebtn{
