@@ -347,7 +347,7 @@ a{
     
     
     display: grid;
-    grid-template-columns: 1fr 1.3fr;
+    grid-template-columns: 1fr 1.7fr;
     cursor: pointer;
     
     border: 1px solid black;
@@ -363,7 +363,7 @@ a{
     background-color: white;
     
     display: grid;
-    grid-template-columns: 1fr 1.3fr;
+    grid-template-columns: 1fr 1.7fr;
     cursor: pointer;
     
     border: 1px solid black;
@@ -399,6 +399,7 @@ a{
     font-size: 13px;
     
     line-height: 20px;
+    overflow-y: scroll;
 }
 
 #ch1, #ch2{
