@@ -403,8 +403,7 @@ a{
     
     top:-20px;
     
-    width: 25vw;
-    height: 0vh;
+    
     
     background-color: white;
     
@@ -417,13 +416,16 @@ a{
     left: -50px;
     overflow-y: scroll;
     
+    width: 35vw;
+    height: 0vh;
 }
 
 #archivecontent{
     overflow-y: scroll;
     left: 20px;
     
-    
+    width: 25vw;
+    height: 0vh;
 }
 
 #open, #close, #arcx,#openingclose{
@@ -488,6 +490,8 @@ a{
     z-index: 9;
     
     transition-duration: 0.8s;
+    
+    
 }
 
 #openingheader{
