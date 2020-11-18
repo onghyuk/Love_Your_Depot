@@ -470,10 +470,13 @@ a{
     
 }
 
-.archiveimg, .onsiteimg{
-    padding: 15px;
+.archiveimg {
+    
 }
 
+.onsiteimg{
+    padding: 3px;
+}
 .layer3{
     position: absolute;
     left: 0px;
