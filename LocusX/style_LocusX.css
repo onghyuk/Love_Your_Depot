@@ -1,13 +1,24 @@
 @font-face {
     font-family:"arkibal";
-    src:url(ArkibalDisplay-Light.woff) 
+    src:url(ArkibalDisplay-Light.woff) ;
+   
 }
+
+
 
 @font-face{
     font-family:"arkibal";
     src:url(ArkibalDisplay-Regular.woff); 
     font-weight:bold;
 }
+
+@font-face{
+    font-family:"arkibal-bold";
+    src:url(ArkibalDisplay-Heavy.woff); 
+    
+}
+
+
 
 
 
@@ -142,8 +153,8 @@ a{
     
     
     
-    width: 30px;
-    height: 45px;
+    width: 60px;
+    height: 40px;
     
     border: 1px solid black;
     
@@ -176,8 +187,8 @@ a{
     
     
     
-    width: 30px;
-    height: 45px;
+    width: 60px;
+    height: 40px;
     
     z-index: 10;
     
@@ -206,8 +217,8 @@ a{
     top:0px;
     left: -10px;
     
-    width: 30px;
-    height: 45px;
+    width: 60px;
+    height: 40px;
     
     z-index: 10;
     
@@ -274,7 +285,7 @@ a{
 #lecture{
     position: absolute;
     top:20vh;
-    left: 30vw;
+    left: 28vw;
     z-index: 7;
     
     
@@ -312,14 +323,69 @@ a{
     left: -50px;
     top:-20px;
     
-    width: 40vw;
-    height: 42vh;
+    width: 46.5vw;
+    height: 47vh;
     
     background-color: white;
     
     
     z-index: 2; 
     transition-duration: 0.8s;
+    
+    overflow-y: scroll;
+}
+
+#schedule{
+    width: 46.5vw;
+    
+    
+    
+    background-color: white; 
+    
+    padding-right: 25px;
+    
+    text-align: right;
+    margin-bottom: -10px;
+    
+    position: fixed;
+   
+    transition-duration: 0.7s;
+}
+
+#lectureschedule{
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+    
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    padding-left: 20px;
+    
+    margin-top: 5.5vh;
+    
+   
+}
+
+
+
+.time{
+    color: brown;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.who{
+    font-size: 15px;
+    line-height: 18px;
+    
+}
+
+ins{
+    font-family: arkibal;
+    
+    font-size: 12px;
+    
+    text-decoration: none;
 }
 
 #lecclose, #lecopen{
@@ -489,7 +555,7 @@ a{
 #opening{
     position: relative;
     top:5vh;
-    left: 17vw;
+    left: 12vw;
     z-index: 9;
     
     transition-duration: 0.8s;
@@ -514,7 +580,7 @@ a{
     left: -50px;
     top:-20px;
     
-    width: 75vw;
+    width: 83vw;
     height: 75vh;
     
     border: 1px solid black;
@@ -524,8 +590,8 @@ a{
     transition-duration: 0.8s;
     
     display: grid;
-    grid-template-columns: 2.5fr 1.5fr;
-    padding: 50px;
+    grid-template-columns: 1fr 1fr 0.65fr;
+    padding: 10px;
     
     
 }
@@ -534,7 +600,7 @@ a{
     width: 100%;
     height: 100%;
     
-    
+    padding: 1px;
 }
 
 #chat{
@@ -547,7 +613,7 @@ a{
     left: 10vw;
     top:2vh;
     
-    width: 70vw;
+    width: 80vw;
     height: 80vh;
     
 }
@@ -567,8 +633,6 @@ a{
     
     border: 1px solid black;
 }
-
-
 
 
 

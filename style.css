@@ -43,8 +43,9 @@ p{
 
 body{
     background-color: #f7e83e;
-    
-    width: 120vw;
+    margin: 0px;
+    width: 100vw;
+    overflow-x: hidden;
     
     font-family: arkibal;
 }
@@ -179,8 +180,8 @@ a{
     
     
     
-    width: 30px;
-    height: 45px;
+    width: 60px;
+    height: 40px;
     
     
     
@@ -204,6 +205,7 @@ a{
     color: black;
     
     transition-duration: 0.7s;
+    
 }
 
 .London{
@@ -213,8 +215,8 @@ a{
     
     
     
-    width: 30px;
-    height: 45px;
+    width: 60px;
+    height: 40px;
     
     z-index: 10;
     
@@ -243,14 +245,14 @@ a{
     top:0px;
     left: -10px;
     
-    width: 30px;
-    height: 45px;
+    width: 60px;
+    height: 40px;
     
     z-index: 10;
     
     
-    background-color: black;
-    color: black;
+    background-color: yellow;
+    color: yellow;
     
     text-align: center;
     vertical-align: middle;
@@ -266,7 +268,7 @@ a{
 .Locus:hover{
     width: 150px;
     transition-duration: 0.7s;
-    color: white;
+    color: black;
     
 }
 
