@@ -181,7 +181,7 @@ a{
 
 #archive{
     
-    
+    margin-top: 50px;
     width: 100%;
     height: 40vh;
     
@@ -310,7 +310,26 @@ a{
 }
 
 
-
+#title{
+    position: relative;
+    left: 0px;
+    top:0px;
+    
+    width: 100%;
+    height: 30vh;
+    
+    border: 1px solid black;
+    
+    background-color: white;
+    
+    font-size: 12px;
+    padding-left:30px;
+    padding-right:30px;
+    
+    overflow-y: scroll;
+    
+    line-height: 20px;
+}
 
 
 
