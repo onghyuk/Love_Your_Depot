@@ -1,0 +1,478 @@
+@font-face {
+    font-family:"arkibal";
+    src:url(ArkibalDisplay-Light.woff) 
+}
+
+@font-face{
+    font-family:"arkibal";
+    src:url(ArkibalDisplay-Regular.woff); 
+    font-weight:bold;
+}
+
+@keyframes dots {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+
+@keyframes dotsappear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+* {
+  box-sizing: border-box;
+    
+    
+}
+
+p{
+    font-family: arkibal;
+}
+
+body{
+    
+    
+    
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: arkibal;
+    
+    
+    
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.header{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
+    width: 100%;
+    height: 8vh;
+    
+    margin-top: 2vh;
+   
+    
+}
+
+            .index{
+             position: absolute;
+             top: -15px;
+             right: -15px;
+
+                width: 100px;
+                height: 50px;
+
+                display: inline;
+                
+                text-align: left;
+
+                cursor: pointer;
+                color: black;
+
+                
+                
+                font-weight:bold;
+                font-family: arkibal;
+                z-index: 9;
+                
+                font-size: 20px;
+            }
+
+#index{
+    position: fixed;
+    top:0;
+    left: 0;
+    
+    
+    width: 0;
+    height: 100vh;
+    z-index: 10;
+    background-color: white;
+    
+    
+    
+    transition-duration: 0.7s;
+    
+    overflow: hidden;
+}
+
+            
+.indextext{
+    margin-left: 30px;
+    margin-top:50px;
+}
+
+.container{
+    position: relative;
+    top:0px;
+    left:0px;
+    
+    min-width:  100%;
+    height: 90vh;
+    
+    
+    
+    
+}
+
+.exhibition{
+    position: relative;
+    top:0px;
+    left:0px;
+    
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.content
+{
+    position: relative;
+    top:0px;
+    left:0px;
+    
+    width: 98%;
+    height: 90vh;
+    
+    
+}
+
+.storage{
+    position: relative;
+    top:0px;
+    left:0px;
+    
+    width: 100%;
+    height: 55vh;
+    
+}
+
+
+
+.done{
+    position: absolute;
+    top:0px;
+    left:0px;
+    
+    width: 100%;
+    height: 100vh;
+    
+    z-index: 0;
+    
+}
+
+
+
+
+#London{
+    
+    
+    width: 100%;
+    height: 55vh;
+    
+    
+    
+    
+    
+    z-index: 5;
+    
+    
+    border: 3px dotted black;
+    
+}
+
+
+
+
+
+
+
+.pages{
+    position: relative;
+    top:50px;
+    left: 0px;
+    
+    width: 100%;
+    height: 90%;
+    
+    z-index: 8;
+}
+
+.swiper-slide{
+    position: relative;
+    top:50px;
+    left: 0px;
+    
+    width: 100%;
+    height: 90%;
+    
+    z-index: 8;
+}
+
+.swiper-container{
+    width: 100%;
+    height: 100%;
+    
+    z-index: 10;
+}
+
+.ex_img{
+    position: relative;
+    top:0px;
+    left: 0px;
+    
+    margin: 0 auto;
+    
+    width: 95%;
+    
+
+}
+
+.buttons{
+    position: absolute;
+    top:10px;
+    left: 50px;
+    
+    width: 40%;
+    height: 100%;
+}
+
+
+
+.disappear{
+  animation-name: dots;
+  animation-duration: 3s;
+  animation-delay: 6s; 
+  animation-fill-mode: both;  
+    
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ongoing{
+    position: relative;
+    top:0px;
+    left:0px;
+    
+    width: 100%;
+    height: 50vh;
+    
+    z-index: 9;
+    
+    
+    
+    
+}
+
+
+.depot_channel{
+    position: relative;
+    top:0px;
+    left: 0vw;
+    
+    width: 100%;
+    height: 40vh;
+    
+    
+    background-color: white;
+    
+    text-align: center;
+    border: 1px solid black;
+    
+    cursor: pointer;
+}
+
+#depotCH{
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    
+    overflow-x: hidden;
+    
+    top:0;
+    right: 0;
+    z-index: 10;
+    
+    background-color: white;
+    transition-duration: 0.5s;
+    
+    padding-top: 50px;
+    
+}
+
+.video{
+    margin-bottom: 30px;
+}
+
+.closebtn{
+    position: absolute;
+    top:15px;
+    right: 15px;
+    
+    font-size: 30px;
+    
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+}
+
+.ch1box{
+    position: relative;
+    top:0px;
+    left: 0vw;
+    
+    width: 100%;
+    height: 32vh;
+    background-color: white;
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    cursor: pointer;
+    
+    border: 1px solid black;
+}
+
+.ch2box{
+    position: relative;
+    top:0vh;
+    left: 0vw;
+    
+    width: 100%;
+    height: 32vh;
+    background-color: white;
+    
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    cursor: pointer;
+    
+    border: 1px solid black;
+}
+
+.ch_info{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+.on{
+    font-weight: normal;
+    font-size: 15px;
+}
+.onair{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    
+    animation-name: dots;
+    animation-duration: 1.5s;
+    animation-direction: alternate-reverse; 
+    animation-iteration-count: infinite;
+}
+
+.ch_list{
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
+    
+    line-height: 20px;
+    overflow-y: scroll;
+    
+    padding-right: 10px;
+}
+
+#ch1, #ch2{
+
+    width: 97vw;
+    height: 90vh;
+    
+    
+    
+    background-color: white;
+   
+}
+
+#chheader{
+    height: 100%;
+    
+}
+
+.ch1{
+    position: absolute;
+    left: 0vw;
+    top:0vh; 
+}
+
+.ch2{
+    position: absolute;
+    left: 0;
+    top:0vh; 
+}
+
+.live-station{
+    
+    
+    width: 100%;
+    height: 40%;
+    
+    opacity: 1;
+    z-index: 10;
+   
+    
+    
+    transition-duration: 1.5s;
+    transition-delay: 8s;
+    
+}
+
+
+
+
+.chat{
+   
+    
+    width: 100%;
+    height: 60%;
+    
+    opacity: 1;
+    
+    z-index: 9;
+    
+    transition-duration: 1s;
+    transition-delay: 8s;
+}
+
+.close{
+    position: absolute;
+    top:25px;
+    right: 25px;
+    
+    font-size: 25px;
+    float:right;
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+}
