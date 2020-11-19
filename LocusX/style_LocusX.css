@@ -325,10 +325,7 @@ a{
     
     width: 46.5vw;
     height: 47vh;
-    
-    background-color: white;
-    
-    
+
     z-index: 2; 
     transition-duration: 0.8s;
     
@@ -345,7 +342,7 @@ a{
     padding-right: 25px;
     
     text-align: right;
-    margin-bottom: -10px;
+    
     
     position: fixed;
    
@@ -357,26 +354,35 @@ a{
     height: auto;
     background-color: yellow;
     
-    display: grid;
-    grid-template-columns: 80px 1fr;
+    
     padding-left: 20px;
     
-    margin-top: 5.5vh;
+    margin-top: 7vh;
+    
     
    
 }
 
+.leclistwrapper{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    
+    
+    margin-top: -10px;
+    
+}
 
 
 .time{
     color: brown;
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 15px;
+    
+    
 }
 
 .who{
     font-size: 15px;
-    line-height: 18px;
+  
     
 }
 
