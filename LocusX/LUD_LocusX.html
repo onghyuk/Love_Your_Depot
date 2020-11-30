@@ -96,8 +96,10 @@ function Index() {
                                 <div class="layer1">
                                     <div id="lecture">
                                        <div id="lectureheader">
-                                       <p class="lecname">Lecture&amp;talk</p> 
+                                       <p class="lecname">Lecture&amp;talk</p>
+                                        
                                        <div id="lecopen" onclick="lecture();closeLecDivshow()"><p>V</p></div>
+                                       
                                         <div id="lecclose" onclick="closeLecDiv();closeLecDivshow()" style="display: block;"><p>-</p></div> 
                                         </div>
                                     
@@ -464,7 +466,7 @@ function closeLecDiv() {
 }        
     
 function closeLecDivshow() {
-  var x = document.getElementById("openingclose");
+  var x = document.getElementById("lecclose");
   
     
   if (x.style.display === "block") {
