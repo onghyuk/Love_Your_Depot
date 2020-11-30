@@ -573,8 +573,8 @@ ins{
 
 #opening{
     position: relative;
-    top:5vh;
-    left: 12vw;
+    top:50vh;
+    left: 72vw;
     z-index: 9;
     
     transition-duration: 0.8s;
@@ -599,8 +599,8 @@ ins{
     left: -50px;
     top:-20px;
     
-    width: 83vw;
-    height: 75vh;
+    width: 30vw;
+    height: 30vh;
     
     border: 1px solid black;
     
@@ -609,8 +609,8 @@ ins{
     transition-duration: 0.8s;
     
     display: grid;
-    grid-template-columns: 1fr 1fr 0.65fr;
-    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
     
     
 }
