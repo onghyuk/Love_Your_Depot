@@ -523,7 +523,18 @@ ins{
 }
 
 
-
+.now{
+    position: absolute;
+    left:8px;
+    top:20px;
+    
+    background-color: white;
+    color: black;
+    padding: 3px;
+    
+    border: 1px solid black;
+    
+}
 #archive{
     position: absolute;
     top:5vh;
@@ -629,7 +640,7 @@ ins{
 #lecturevideo{
     position: relative;
     left: 20px;
-    top:-20px;
+    top:-30px;
     
     width: 70vw;
     height: 70vh;
@@ -640,6 +651,8 @@ ins{
     z-index: 2; 
     
     border: 1px solid black;
+    
+
 }
 
 
