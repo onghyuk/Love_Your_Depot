@@ -575,7 +575,20 @@ ins{
 }
 
 
-
+.now{
+    width: 45px;
+    position: relative;
+    left:0px;
+    top:25px;
+    
+    background-color: white;
+    color: black;
+    padding: 3px;
+    font-size: 15px;
+    border: 1px solid black;
+    
+    margin-top: -10px;
+}
 
 .chat{
    
