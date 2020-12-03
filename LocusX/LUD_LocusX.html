@@ -366,17 +366,28 @@ What was initially planned to be a physical third Depot exhibition in the Newcas
                                                
                                     
                                                  
-                                                 <div id="lecopen" onclick=" closeOpeDivshow();openOpeDivSize();openButtonshow();chatboxshow();" ><p>^</p></div>
                                                  
-                                                <div id="openingclose" onclick="ChaOpeDiv();closeOpeDivSize();openButtonshow();chatboxshow();" style="display:none;" ><p>-</p></div>
+                                                 
+                                                
+                                                
+                                                <div id="lecopen" onclick=" closeOpeDivshow();openOpeDivSize();openButtonshow();chatboxshow();"><p>^</p></div>
+                                                
+                                                <div id="openingclose" onclick="ChaOpeDiv();closeOpeDivSize();openButtonshow();chatboxshow();" style="display: block;"><p>-</p></div>
                                                 </div>
+                                                
+                                                
+                                                 
+                                                
+                                                
                                             
                                             
                                             <div id="openingcontent">
                                             <div id="live-station">
-                                   
+                                            
+                                            
+                                            
                                             <iframe src="https://video.ibm.com/embed/24012159" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no" width="100%" height="100%"></iframe>
-                                                         
+                                                      
                                             </div> 
                                             
                                             <div id="live-station">
@@ -386,7 +397,7 @@ What was initially planned to be a physical third Depot exhibition in the Newcas
                                             </div> 
                                             
                                     
-                                            <div id="chat" style="display: none;">
+                                            <div id="chat" style="display: block;">
                                             <iframe src="https://video.ibm.com/socialstream/24012159?videos=0" style="border: 0;" webkitallowfullscreen allowfullscreen frameborder="no" width="100%" height="100%"></iframe>
                                             </div>
                                              
@@ -409,7 +420,9 @@ What was initially planned to be a physical third Depot exhibition in the Newcas
         </div>                 
 
     </div>
-                    
+<script>
+    
+ </script>                    
        
 <script>
 function onsite() {
@@ -498,6 +511,18 @@ function chatboxshow() {
         
 }     
     
+function openButtonshow() {
+  var x = document.getElementById("openingclose");
+  
+    
+ if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+        
+}      
+    
 function closeOpeDivshow() {
   document.getElementById("opening").style.position = "relative";
   document.getElementById("opening").style.left = "12vw";
@@ -531,19 +556,7 @@ function ChaOpeDiv() {
     
 </script>
 
-<script>
-    
-function openButtonshow() {
-  var x = document.getElementById("openingclose");
-  
-    
- if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-        
-}   </script>
+
                                   
 <script>
     // Make the DIV element draggable:
