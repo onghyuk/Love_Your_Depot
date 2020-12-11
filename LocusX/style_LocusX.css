@@ -162,8 +162,9 @@ a{
     
     background-color: white;
     
+    
     text-align: center;
-    vertical-align: middle;
+    
     
     font-weight:bold;
     font-family: arkibal;
@@ -179,6 +180,7 @@ a{
     
     transition-duration: 0.7s;
 }
+
 
 .London{
     position: relative;
@@ -350,7 +352,7 @@ a{
 
 #lectureschedule{
     width: 100%;
-    height: auto;
+    height: 35%;
     background-color: yellow;
     
     
@@ -360,6 +362,22 @@ a{
     
     
    
+}
+
+.anounce{
+    position: absolute;
+    width: 90%;
+    height: 170%;
+    
+    left: 35px;
+    
+    opacity: 0.9;
+    border: 1px solid yellow;
+    
+    background-color: white;
+    z-index: 9;
+    
+    
 }
 
 .leclistwrapper{
@@ -393,7 +411,7 @@ ins{
     text-decoration: none;
 }
 
-#lecclose, #lecopen{
+#lecclose, #lecopen, #lecopen2{
     position: absolute;
     left: 120px;
     top:0px;
@@ -573,8 +591,8 @@ ins{
 
 #opening{
     position: relative;
-    top:5vh;
-    left: 12vw;
+    top:50vh;
+    left: 72vw;
     z-index: 9;
     
     transition-duration: 0.8s;
@@ -599,8 +617,8 @@ ins{
     left: -50px;
     top:-20px;
     
-    width: 83vw;
-    height: 75vh;
+    width: 30vw;
+    height: 30vh;
     
     border: 1px solid black;
     
@@ -609,8 +627,8 @@ ins{
     transition-duration: 0.8s;
     
     display: grid;
-    grid-template-columns: 1fr 1fr 0.65fr;
-    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
     
     
 }
