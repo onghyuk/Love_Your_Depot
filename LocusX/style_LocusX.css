@@ -656,7 +656,7 @@ ins{
     width: 80vw;
     height: auto;
     
-    
+    overflow-y: scroll;
 }
 
 .lecturevideo{
