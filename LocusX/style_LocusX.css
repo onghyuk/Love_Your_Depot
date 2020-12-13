@@ -705,4 +705,19 @@ ins{
     z-index: 10;
 }
 
+.link, .link2{
+    position: absolute;
+    width: 100%;
+    height: 12%;
+    
+    
+   
+}
 
+.link{
+    top:11%;
+}
+
+.link2{
+    top:23%;
+}
