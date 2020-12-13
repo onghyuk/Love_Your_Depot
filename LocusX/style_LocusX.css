@@ -139,6 +139,9 @@ a{
     left:0px;
     
     width: 100vw;
+    height: auto;
+    
+    overflow-y: scroll;
     
     
 }
@@ -356,9 +359,9 @@ a{
     background-color: yellow;
     
     
-    padding-left: 20px;
     
-    margin-top: 50px;
+    
+    
     
     
    
@@ -646,21 +649,20 @@ ins{
 }
 
 .lecture{
-    position: absolute;
+    position: relative;
     left: 10vw;
     top:2vh;
     
     width: 80vw;
-    height: 90vh;
+    height: auto;
     
-    overflow-y: scroll;
     
 }
 
 .lecturevideo{
     position: relative;
     left: 20px;
-    top:-20px;
+    top:-10px;
     
     width: 70vw;
     height: 70vh;

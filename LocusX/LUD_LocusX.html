@@ -99,21 +99,28 @@ function Index() {
                                        <p class="lecname">Lecture&amp;talk</p>
                                      
                                         
-                                       <div id="lecopen" onclick="lecture();closeLecDivshow();"><p>V</p></div>
                                        
-                                       <div id="lecclose" onclick="closeLecDiv();closeLecDivshow()" style="display: block;"><p>-</p></div> 
+                                       
+                                       <div id="lecclose" onclick="closeLecDiv();closeLecDivshow();"><p>-</p></div> 
                                        </div>
                                         
+                                       <div id="lecopen" onclick="lecture(); closeLecDivshow();" style="display: none;"><p>V</p></div>    
                                     
                                    <div id="lecturecontent"> 
-                                    <div id="schedule">
-                                    <p style="font-size: 15px;font-family: arkibal-bold;">SCHEDULE</p>
-                                    </div>
+                                    
                                     
                                     <div id="lectureschedule">
+                                        <a href="lecture.html" target="_parent">
+                                        <img src="ScheduleBoard_Redesign.jpg" style="width: 100%;">
+                                        </a>
+                                        
                                        
+                                       
+                                        <!--
                                         <a href="lecture.html" target="_parent">
                                         <div class="leclistwrapper">
+                                        
+                                       
                                         <div class="time">
                                         <p class="now">now!</p>
                                         <p style="font-family: arkibal-bold">30 NOV</p>
@@ -126,7 +133,7 @@ function Index() {
                                         
                                         
                                         
-                                        <!--
+                                        
                                         <div class="leclistwrapper">
                                         <div class="time">
                                          <p style="font-family: arkibal-bold">3 DEC</p>  
@@ -279,14 +286,14 @@ function Index() {
                                         
                                         
                                   
-                                        <p style="font-size: 13px; text-align: left; color: brown;">Next schedules will be announced later </p>
-                                           
+                                   
                                                                                                                             
                                         
-                                    </div>
+                                    
                                     
                                     </div>
-                                    
+                                        
+                                     </div>
                                     </div>
                                     
                                     
@@ -484,7 +491,7 @@ function closeLecDiv() {
 }        
     
 function closeLecDivshow() {
-  var x = document.getElementById("lecclose");
+  var x = document.getElementById("lecopen");
   
     
   if (x.style.display === "block") {
