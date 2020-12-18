@@ -97,16 +97,16 @@ function Index() {
                                     <div id="lecture">
                                        <div id="lectureheader">
                                        <p class="lecname">Lecture&amp;talk</p>
-                                     
                                         
                                        
                                        
-                                       <div id="lecclose" onclick="closeLecDiv();closeLecDivshow();"><p>-</p></div> 
-                                       </div>
+                                       <div id="lecclose" onclick="closeLecDiv();Lecshow()"><p>-</p></div> 
+                                      
                                         
-                                       <div id="lecopen" onclick="lecture(); closeLecDivshow();" style="display: none;"><p>V</p></div>    
-                                    
-                                   <div id="lecturecontent"> 
+                                       <div id="lecopen" onclick="lecture(); Lecshow()" style="display: none;"><p>V</p></div> 
+                                       </div>    
+                                         
+                       <div id="lecturecontent"> 
                                     
                                     
                                     <div id="lectureschedule">
@@ -387,7 +387,7 @@ What was initially planned to be a physical third Depot exhibition in the Newcas
                                                  
                                                 
                                                 
-                                                <div id="lecopen2" onclick=" closeOpeDivshow();openOpeDivSize();openButtonshow();chatboxshow();"><p>^</p></div>
+                                                <div id="lecopentwo" onclick=" closeOpeDivshow();openOpeDivSize();openButtonshow();chatboxshow();"><p>^</p></div>
                                                 
                                                 <div id="openingclose" onclick="ChaOpeDiv();closeOpeDivSize();openButtonshow();chatboxshow();" style="display: none;"><p>-</p></div>
                                                 </div>
@@ -487,25 +487,28 @@ function closeArcDivshow() {
    
 function lecture() {
   document.getElementById("lecturecontent").style.height = "45vh";
-  document.getElementById("schedule").style.opacity = "1";        
+         
 }     
 
 function closeLecDiv() {
   document.getElementById("lecturecontent").style.height = "0";
-  document.getElementById("schedule").style.opacity = "0";    
+      
 }        
-    
-function closeLecDivshow() {
+
+  function Lecshow() {
   var x = document.getElementById("lecopen");
   
     
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
+  if (x.style.display === "none") {
     x.style.display = "block";
+  } else {
+    x.style.display = "none";
   }
         
 }  
+        
+                  
+
     
     
     
