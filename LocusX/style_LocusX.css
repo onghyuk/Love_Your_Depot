@@ -343,6 +343,8 @@ a{
     transition-duration: 0.8s;
     
     overflow-y: scroll;
+    
+    
 }
 
 #schedule{
@@ -456,6 +458,7 @@ ins{
     font-size: 12px;
     padding: 0 20px;
     
+   
     overflow-y: scroll;
     
     line-height: 20px;
@@ -473,8 +476,13 @@ ins{
 #onsite{
     position: absolute;
     top:45vh;
+    
     left: 1vw;
+    
+    max-width: 15vw;
     z-index: 7;
+    
+    
 }
 
 #onsiteheader{
