@@ -393,7 +393,7 @@ a{
 }
 #lectureschedule{
     top:0px;
-    width: 100%;
+    width: 93.5vw;
     height: auto;
     background-color: white;
     
@@ -405,21 +405,28 @@ a{
    
 }
 
-.link, .link2{
+.link, .link2, .link3{
     position: absolute;
-    width: 100%;
-    height: 9%;
+    width: 95%;
+    height:6.1vw;
     
-   
-   
+    
+    border: 1px solid aqua;
 }
 
 .link{
-    top:23%;
+    top:17.8vw;
 }
 
 .link2{
-    top:32%;
+    top:23.8vw;
+}
+
+
+.link3{
+    top:28.5vw;
+    
+   
 }
 
 .leclistwrapper{
