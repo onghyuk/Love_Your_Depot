@@ -134,12 +134,12 @@ body{
     width: 100%;
 }
 
-@media all and (min-width: 200px) and (max-width: 600px) {
+@media all and (min-width: 200px) and (max-width: 760px) {
     .pc {display:none}
     .container {display: none}
 }
 
-@media all and (min-width: 600px){
+@media all and (min-width: 760px){
     .mobile {display:none}
     .container2 {display: none}
 }
