@@ -750,10 +750,10 @@ ins{
 
 #live{
     position: absolute;
-    top:10px;
+    top:-10px;
     left: 47vw;
     
-    width: 30vw;
+    width: 35vw;
     height: auto;
     
     z-index: 9;

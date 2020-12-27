@@ -247,7 +247,7 @@ a{
 }
 
 .lecturetext{
-    margin-left: 20px; 
+    margin-left: 10px; 
     font-size: 14px; 
     margin-top: 30px; 
     
@@ -485,4 +485,15 @@ a{
     cursor: pointer;
     color: black;
     z-index: 10;
+}
+
+.livetext{
+    
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 20px;
+    max-width: 700px;
+    
+    margin-bottom: 30px;
 }
