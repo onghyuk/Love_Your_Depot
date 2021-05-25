@@ -405,10 +405,12 @@ a{
    
 }
 
-.link, .link2, .link3{
+.link, .link2, .link3, .link4, .link5{
     position: absolute;
     width: 95%;
     height:6.1vw;
+    
+  
     
     
     
@@ -426,7 +428,16 @@ a{
 .link3{
     top:36.5vw;
     
-   
+}
+
+.link4{
+    top:48vw;
+    
+}
+
+.link5{
+    top:54vw;
+    
 }
 
 .leclistwrapper{

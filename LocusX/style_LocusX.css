@@ -182,6 +182,10 @@ a{
     color: white;
     overflow: hidden;
     
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+    
     transition-duration: 0.7s;
 }
 
@@ -189,7 +193,9 @@ a{
     width: 150px;
     color: black;
     
-    transition-duration: 0.7s;
+    
+    
+    
 }
 
 
@@ -218,6 +224,10 @@ a{
     overflow: hidden;
     
     transition-duration: 0.7s;
+    
+     padding-top: 5px;
+    padding-left: 15px;
+    font-size: 15px;
 }
 
 .London:hover{
@@ -367,6 +377,7 @@ a{
     width: 45vw;
     height: 35vh;
     background-color: yellow;
+    cursor: pointer;
     
     
     
@@ -725,10 +736,11 @@ ins{
     z-index: 10;
 }
 
-.link, .link2, .link3{
+.link, .link2, .link3, .link4, .link5{
     position: absolute;
     width: 95%;
     height: 2.8vw;
+    
     
     
    
@@ -746,7 +758,15 @@ ins{
 .link3{
     top:11.7vw;
     
-   
+}
+
+.link4{
+    top:17.3vw;
+    
+}
+
+.link5{
+    top:20.1vw;
 }
 
 #live{
