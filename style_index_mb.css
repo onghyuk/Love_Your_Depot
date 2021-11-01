@@ -30,7 +30,7 @@ body{
             -webkit-backdrop-filter: blur( 13.5px );
             border-radius: 0px;
             border: 0px solid rgba( 255, 255, 255, 0.18 );
-            width: 40vx;
+            width: 60vx;
             position: fixed;
             right:0px;
             margin-right: 8%;
@@ -70,7 +70,7 @@ body{
         }
 
         #modal .ARposter2{
-            width: 41vw;
+            width: 61vw;
             cursor: pointer;
             align: center;
         }
