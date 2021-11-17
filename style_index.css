@@ -88,22 +88,6 @@ body{
     width: 70vw;
 }
 
-.cover{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    background-color: white;
-
-
-
-    width: 100vw;
-    height: 100vh;
-
-    animation-name: coverani;
-    animation-delay: 2.5s;
-    animation-duration: 3.5s;
-    animation-fill-mode: both;
-}
 
 .poster{
     margin-left: auto;
