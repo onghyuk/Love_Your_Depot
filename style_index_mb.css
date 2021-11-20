@@ -8,6 +8,12 @@
     to {opacity: 1;}
 }
 
+@font-face{
+    font-family:"arkibal";
+    src:url(ArkibalDisplay-Heavy.woff);
+    font-weight:bold;
+}
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -17,20 +23,33 @@
 }
 
 body{
-    background-color: white;
-    margin: 0px;
+    background-color: yellow;
+    margin: 10px;
+}
+a {
+  text-decoration-line: none;
+  color: black;
+
+}
+
+a:hover{color:yellow;}
+
+.artist{
+color:black;
+font-size:5vw;
+font-family: arkibal;
 }
 
 
 
 #modal .modal-window {
             background: #fcca1b;
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.37 );
             backdrop-filter: blur( 13.5px );
             -webkit-backdrop-filter: blur( 13.5px );
             border-radius: 0px;
             border: 0px solid rgba( 255, 255, 255, 0.18 );
-            width: 60vx;
+            width: 50vx;
             position: fixed;
             right:0px;
             margin-right: 8%;
@@ -40,7 +59,6 @@ body{
         #modal .title {
             padding-left: 0px;
             display: inline;
-            text-shadow: 1px 1px 2px gray;
             color: white;
 
         }
@@ -56,7 +74,6 @@ body{
         #modal .content {
             margin-top: 0px;
             padding: 0px;
-            text-shadow: ;
             color: white;
         }
 
@@ -70,7 +87,7 @@ body{
         }
 
         #modal .ARposter2{
-            width: 60vw;
+            width: 50vw;
             cursor: pointer;
             align: center;
         }
@@ -86,60 +103,7 @@ body{
     width: 70vw;
 }
 
-.cover{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    background-color: white;
 
-
-
-    width: 100vw;
-    height: 100vh;
-
-    animation-name: coverani;
-    animation-delay: 2.5s;
-    animation-duration: 3.5s;
-    animation-fill-mode: both;
-}
-
-.poster{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-
-    height: 98vh;
-
-    animation-name: poster;
-    animation-delay: 0s;
-    animation-duration: 3.5s;
-    animation-fill-mode: both;
-
-}
-
-.poster2{
-    margin-left: auto;
-    margin-right: auto;
-
-
-
-    width: 100%;
-}
-
-.container, .container2{
-    position: relative;
-    top:0px;
-    left: 0px;
-    width: 100vw;
-    height: 100%;
-
-
-}
-
-.container2
-{
-    background-color: white;
-}
 
 
 .window{
