@@ -41,59 +41,7 @@ a:hover{color:yellow;}
   font-family: arkibal;
 }
 
-#modal .modal-window {
-            background: #fcca1b;
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-            backdrop-filter: blur( 13.5px );
-            -webkit-backdrop-filter: blur( 13.5px );
-            border-radius: 0px;
-            border: 0px solid rgba( 255, 255, 255, 0.18 );
-            width: 24vx;
-            position: fixed;
-            right:0px;
-            margin-right: 10%;
-            top: 5%;
-            padding: 0px;
-        }
-        #modal .title {
-            padding-left: 0px;
-            display: inline;
-            text-shadow: 1px 1px 2px gray;
-            color: #fcca1b;
-
-        }
-        #modal .close-area {
-            display: inline;
-            float: right;
-            padding-right: 5px;
-            cursor: pointer;
-            text-shadow: 1px 1px 2px gray;
-            color: black;
-            font-size: 1.1em
-        }
-
-        #modal .content {
-            margin-top: 0px;
-            padding: 0px;
-            text-shadow: ;
-            color: white;
-        }
-
-        #modal .click {
-            display: inline;
-            float: left;
-            padding-left: 3px;
-            cursor: pointer;
-            color: black;
-            font-size: 1.1em
-
-        }
-
-        #modal .ARposter2{
-            width: 24vw;
-            cursor: pointer;
-            align: center;
-        }
+\
 
 .background{
     position: relative;

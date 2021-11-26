@@ -42,55 +42,7 @@ font-family: arkibal;
 
 
 
-#modal .modal-window {
-            background: #fcca1b;
-            box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.37 );
-            backdrop-filter: blur( 13.5px );
-            -webkit-backdrop-filter: blur( 13.5px );
-            border-radius: 0px;
-            border: 0px solid rgba( 255, 255, 255, 0.18 );
-            width: 50vx;
-            position: fixed;
-            right:0px;
-            margin-right: 8%;
-            top: 10%;
-            padding: 0px;
-        }
-        #modal .title {
-            padding-left: 0px;
-            display: inline;
-            color: white;
 
-        }
-        #modal .close-area {
-            display: inline;
-            float: right;
-            padding-right: 5px;
-            cursor: pointer;
-            text-shadow: 1px 1px 2px gray;
-            color: black;
-        }
-
-        #modal .content {
-            margin-top: 0px;
-            padding: 0px;
-            color: white;
-        }
-
-        #modal .click {
-            display: inline;
-            float: left;
-            padding-left: 2px;
-            cursor: pointer;
-            color: black;
-
-        }
-
-        #modal .ARposter2{
-            width: 50vw;
-            cursor: pointer;
-            align: center;
-        }
 
 .background{
     position: relative;
