@@ -162,6 +162,8 @@ a{
     height: 80vh;
 }
 
+
+
 @media screen and (max-width : 700px){
 
     .wrapper{
@@ -256,6 +258,11 @@ a{
 
     .subtext{
         font-size: 0.5em;
+    }
+
+    .footer{
+     position: relative;
+     height: 5vh;
     }
     
 }
