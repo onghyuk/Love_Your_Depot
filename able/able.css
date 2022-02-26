@@ -169,6 +169,8 @@ a{
 
     .wrapper{
         height: 100%;
+
+        -webkit-overflow-scrolling: touch;
     }
     .container{
         
