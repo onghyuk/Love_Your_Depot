@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUD</title>
+
+    
+
+<link rel="stylesheet" href="style_door.css">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="icon" href="favicon.ico">
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <a href="index.html"><img src="logo.png" alt="logo" class="mainlogo"></a>
+        </div>
+        <div class="container">
+            <div class="logo">
+                <img src="Seoul/loop_logo.gif" class="logoimg">
+            </div>
+
+            <a href="able/able.html"><div class="box five" id="five">
+                <h1>Enablers</h1>
+            </div>
+            </a>
+
+            <a href="able/able.html"> <div class="box five mobile" >
+                <h1>Enablers</h1>
+            </div>
+            </a>
+
+            <a href="gangnam.html"><div class="box four" id="four">
+                <h1>Gangnam Pavilion</h1>
+            </div>
+            </a>
+
+            <a href="gangnam_mb.html"> <div class="box mobile four">
+                <h1>Gangnam Pavilion</h1>
+            </div>
+            </a>
+
+            <a href="LocusX/LUD_LocusX.html"><div class="box" id="three">
+                <h1>Locus X</h1>
+            </div>
+            </a>
+
+            <a href="LUD_LocusX_mb.html"> <div class="box mobile three">
+                <h1>Locus X</h1>
+            </div>
+            </a>
+
+            <a href="LUD_London.html"><div class="box" id="two">
+                <h1>KCCUK</h1>
+            </div>
+            </a>
+
+            <a href="LUD_London_mb.html"> <div class="box two mobile">
+                <h1>KCCUK</h1>
+            </div>
+            </a>
+
+            <a href="Seoul/LUD_Seoul.html"><div class="box" id="one">
+                <h1>MMCA</h1>
+            </div>
+            </a>
+
+            <a href="Seoul/LUD_Seoul_mb.html"> <div class="box one mobile">
+                <h1>MMCA</h1>
+            </div>
+            </a>
+
+            
+        </div>
+
+        <div class="background" id="backgroundFive">
+            <img src="able/img/3.jpg" class="backgroundImg">
+        </div>
+
+        <div class="background" id="backgroundFour">
+            <img src="2.jpeg" class="backgroundImg">
+        </div>
+
+        <div class="background" id="backgroundThree">
+            <img src="LocusX/background_img.jpg" class="backgroundImg">
+        </div>
+
+        <div class="background" id="backgroundTwo">
+            <img src="London_ins_img/2.jpg" class="backgroundImg">
+        </div>
+
+        <div class="background" id="backgroundOne">
+            <img src="Seoul/love/4-1.jpg" class="backgroundImg">
+        </div>
+
+        <div class="footer"></div>
+    </div>
+    
+</body>
+
+<script>
+    const five = document.getElementById("five");
+    const four = document.getElementById("four");
+    const three = document.getElementById("three");
+    const two = document.getElementById("two");
+    const one = document.getElementById("one");
+
+
+    five.addEventListener("mouseover", functionFive);
+    four.addEventListener("mouseover", functionFour);
+    three.addEventListener("mouseover", functionThree);
+    two.addEventListener("mouseover", functionTwo);
+    one.addEventListener("mouseover", functionOne);
+
+
+    function functionFive() {
+        document.getElementById("backgroundFive").style.display = "block";
+        document.getElementById("backgroundFour").style.display = "none";
+        document.getElementById("backgroundThree").style.display = "none";
+        document.getElementById("backgroundTwo").style.display = "none";
+        document.getElementById("backgroundOne").style.display = "none";
+    }
+
+
+    function functionFour() {
+        document.getElementById("backgroundFive").style.display = "none";
+        document.getElementById("backgroundFour").style.display = "block";
+        document.getElementById("backgroundThree").style.display = "none";
+        document.getElementById("backgroundTwo").style.display = "none";
+        document.getElementById("backgroundOne").style.display = "none";
+    }
+
+    function functionThree() {
+        document.getElementById("backgroundFive").style.display = "none";
+        document.getElementById("backgroundFour").style.display = "none";
+        document.getElementById("backgroundThree").style.display = "block";
+        document.getElementById("backgroundTwo").style.display = "none";
+        document.getElementById("backgroundOne").style.display = "none";
+    }
+
+    function functionTwo() {
+        document.getElementById("backgroundFive").style.display = "none";
+        document.getElementById("backgroundFour").style.display = "none";
+        document.getElementById("backgroundThree").style.display = "none";
+        document.getElementById("backgroundTwo").style.display = "block";
+        document.getElementById("backgroundOne").style.display = "none";
+    }
+
+    function functionOne() {
+        document.getElementById("backgroundFive").style.display = "none";
+        document.getElementById("backgroundFour").style.display = "none";
+        document.getElementById("backgroundThree").style.display = "none";
+        document.getElementById("backgroundTwo").style.display = "none";
+        document.getElementById("backgroundOne").style.display = "block";
+    }
+
+    
+
+
+</script>
+</html>
