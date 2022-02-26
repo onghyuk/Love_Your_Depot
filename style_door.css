@@ -123,7 +123,9 @@ h1{
 
 @media screen and (max-width : 700px){
 
-
+    .wrapper{
+        height: 200vh;
+    }
     .logo{
         width: 140%;
         
@@ -153,5 +155,10 @@ h1{
 
     .mobile{
         display: block;
+    }
+
+    .footer{
+        position: relative;
+        height: 5vh;
     }
 }
