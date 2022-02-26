@@ -1,0 +1,154 @@
+@font-face {
+    font-family:"arkibal";
+    src:url(ArkibalDisplay-Light.woff) ;
+
+
+}
+
+@font-face{
+    font-family:"arkibal";
+    src:url(ArkibalDisplay-Regular.woff);
+    font-weight:bold;
+}
+
+body{
+    margin: 0px;
+}
+
+a{
+    color: black;
+}
+
+.wrapper{
+    max-width: 100vw;
+    max-height: 100vh;
+
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
+
+.container{
+    position: relative;
+    left: 37.5vw;
+    width: 23vw;
+    margin-top: 5vh;
+    height: 85vh;
+  
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 9;
+    background-color: white;
+}
+
+.header{
+    position: absolute;
+    left: 2vw;
+    top: 2vh;
+    width: 20%;
+    z-index: 9;
+}
+
+.mainlogo{
+    width: 100%;
+}
+.logo{
+    width: 160%;
+}
+
+.logoimg{
+    width: 100%;
+    
+}
+
+h1{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.mobile{
+    display: none;
+}
+
+.box{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 20vh;
+    line-height: 20vh;
+    
+    
+    border-bottom: 1px solid black;
+
+    font-family: arkibal;
+    
+    text-align: center;
+}
+
+.five{
+    background-color: yellow;
+}
+
+.four{
+    background-color: yellow;
+}
+
+.background{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 80vw;
+    height: 100vh;
+    max-height: 100vh;
+
+   
+    overflow-y: hidden;
+    z-index: 1;
+
+}
+
+#backgroundOne , #backgroundTwo, #backgroundThree, #backgroundFour, #backgroundFive{
+    display: none;
+}
+
+.backgroundImg{
+    position: absolute;
+    right: 0px;
+    width: 100%;
+}
+
+@media screen and (max-width : 700px){
+
+
+    .logo{
+        width: 140%;
+        
+    }
+
+    .container{
+        position: relative;
+    left: 0px;
+    width: 0px;
+        width: 100%;
+        height: 100%;
+        margin-top: 0vh;
+    }
+
+    .header{
+        display: none;
+        height: 0px;
+    }
+
+    .wrapper{
+        overflow-y:scroll;
+    }
+
+    #one, #two, #three, #four, #five{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+}
