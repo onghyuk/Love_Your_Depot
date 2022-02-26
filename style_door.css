@@ -125,7 +125,10 @@ h1{
 @media screen and (max-width : 700px){
 
     .wrapper{
-        height: 200vh;
+        height: 100%;
+        max-height: 200vh;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
     }
     .logo{
         width: 140%;
