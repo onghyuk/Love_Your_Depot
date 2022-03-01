@@ -38,9 +38,11 @@ body{
 
 }
 
-.body{
+.wrapper{
     max-width: 100vw;
     overflow-x: hidden;}
+
+
 a{
     text-decoration: none;
     color: black;
