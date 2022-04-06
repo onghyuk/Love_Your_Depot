@@ -18,10 +18,19 @@
         <div class="header">
             <a href="index.html"><img src="logo.png" alt="logo" class="mainlogo"></a>
         </div>
+
+        <div class="banner" id="banner">
+            <div id="close"><span>X</span></div>
+            <img src="Nourishing_Blam_poster.jpg" class="bannerimg">
+        </div>
+
         <div class="container">
             <div class="logo">
                 <img src="Seoul/loop_logo.gif" class="logoimg">
             </div>
+
+
+            
 
             <a href="able/able.html"><div class="box five" id="five">
                 <h1>Enablers</h1>
@@ -75,6 +84,13 @@
 
            
         </div>
+        
+        
+        
+        
+       
+
+
 
         <div class="background" id="backgroundFive">
             <img src="able/img/3.jpg" class="backgroundImg">
@@ -107,6 +123,7 @@
     const three = document.getElementById("three");
     const two = document.getElementById("two");
     const one = document.getElementById("one");
+    const banner = document.querySelector("#banner");
 
 
     five.addEventListener("mouseover", functionFive);
@@ -114,6 +131,7 @@
     three.addEventListener("mouseover", functionThree);
     two.addEventListener("mouseover", functionTwo);
     one.addEventListener("mouseover", functionOne);
+    banner.addEventListener("click", disappear)
 
 
     function functionFive() {
@@ -155,6 +173,10 @@
         document.getElementById("backgroundThree").style.display = "none";
         document.getElementById("backgroundTwo").style.display = "none";
         document.getElementById("backgroundOne").style.display = "block";
+    }
+
+    function disappear() {
+        document.querySelector("#banner").style.display = "none";
     }
 
     

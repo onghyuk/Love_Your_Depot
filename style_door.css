@@ -108,18 +108,41 @@ h1{
 
    
     overflow-y: hidden;
-    z-index: 1;
+    
 
 }
 
 #backgroundOne , #backgroundTwo, #backgroundThree, #backgroundFour, #backgroundFive{
     display: none;
+    z-index: 9;
 }
 
 .backgroundImg{
     position: absolute;
     right: 0px;
     width: 100%;
+}
+
+.banner{
+    position: absolute;
+    left: 35vw;
+    top: 2vh;
+    width: 45%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+ .bannerimg{
+    width: 100%;
+}
+
+#close{
+
+    position: absolute;
+    color: white;
+    right:0.5vw;
+    top:0.5vw;
+    font-size: 2em;
 }
 
 @media screen and (max-width : 700px){
@@ -164,5 +187,24 @@ h1{
     .footer{
         position: relative;
         height: 0vh;
+    }
+
+    .banner{
+        position: absolute;
+        left: 0vw;
+        top: 26.5vh;
+        width: 100%;
+        z-index: 10;
+        cursor: pointer;
+    }
+
+    .bannerimg{
+        width: 100%;
+    }
+
+    #close{
+        font-size: 1.3em;
+        right: 1.5vw;
+        top:1.5vw;
     }
 }
