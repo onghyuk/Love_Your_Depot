@@ -114,7 +114,7 @@ h1{
 
 #backgroundOne , #backgroundTwo, #backgroundThree, #backgroundFour, #backgroundFive{
     display: none;
-    z-index: 9;
+    z-index: 5;
 }
 
 .backgroundImg{
@@ -128,7 +128,7 @@ h1{
     left: 35vw;
     top: 2vh;
     width: 45%;
-    z-index: 10;
+    z-index: 7;
     cursor: pointer;
 }
 
@@ -136,7 +136,7 @@ h1{
     width: 100%;
 }
 
-#close{
+#close, #noticeClose{
 
     position: absolute;
     color: white;
@@ -144,6 +144,23 @@ h1{
     top:0.5vw;
     font-size: 2em;
     font-family: arkibal;
+}
+
+#noticeClose{
+    color: black;
+}
+
+.notice{
+    position: absolute;
+    top:3vh;
+    left: 78vw;
+    width: 15vw;
+    height: 20vh;
+    border: 1px solid black;
+    z-index: 9;
+    background-color: white;
+    padding: 1vw;
+    font-family: sans-serif;
 }
 
 @media screen and (max-width : 700px){
@@ -203,9 +220,22 @@ h1{
         width: 100%;
     }
 
-    #close{
+    #close #noticeClose{
         font-size: 1.3em;
         right: 1.5vw;
         top:1.5vw;
+    }
+
+    .notice{
+        position: absolute;
+        top:35vh;
+        left: 0vw;
+        width: 85vw;
+        height: 25vh;
+        border: 1px solid black;
+        z-index: 10;
+        background-color: white;
+        padding: 1vw;
+        font-family: sans-serif;
     }
 }
