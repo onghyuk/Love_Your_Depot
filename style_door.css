@@ -254,6 +254,10 @@ h1{
         top:1.5vw;
     }
 
+    .box{
+        z-index: 5;
+    }
+
     .notice{
         position: absolute;
         top:35vh;
