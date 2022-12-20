@@ -20,11 +20,17 @@
         </div>
         <div class="container">
 
-            <!--
-            <div class="banner">
-                <img src="Nourishing_Blam_poster.jpg" class="bannerimg">
+            
+            <div id="banner">
+                <div id="close"><span>X</span></div>
+                <img src="holiday4.jpg" class="bannerimg">
             </div>
-            -->
+    
+            <div id="banner2" >
+                <div id="close2"><span>X</span></div>
+                <img src="nightfall.png" class="bannerimg">
+            </div>
+            
             <div class="logo">
                 <img src="Seoul/loop_logo.gif" class="logoimg">
             </div>
@@ -113,13 +119,16 @@
     const three = document.getElementById("three");
     const two = document.getElementById("two");
     const one = document.getElementById("one");
-
+    const banner = document.querySelector("#banner");
+    const banner2 = document.querySelector("#banner2");
 
     five.addEventListener("mouseover", functionFive);
     four.addEventListener("mouseover", functionFour);
     three.addEventListener("mouseover", functionThree);
     two.addEventListener("mouseover", functionTwo);
     one.addEventListener("mouseover", functionOne);
+    banner.addEventListener("click", disappear);
+    banner2.addEventListener("click", disappear2);
 
 
     function functionFive() {
@@ -163,7 +172,13 @@
         document.getElementById("backgroundOne").style.display = "block";
     }
 
-    
+    function disappear2() {
+        document.querySelector("#banner2").style.display = "none";
+    }
+
+    function disappear() {
+        document.querySelector("#banner").style.display = "none";
+    }
 
 
 </script>

@@ -123,11 +123,20 @@ h1{
     width: 100%;
 }
 
-.banner{
+#banner{
     position: absolute;
-    left: 35vw;
+    left: 25vw;
     top: 2vh;
-    width: 45%;
+    width: 23%;
+    z-index: 7;
+    cursor: pointer;
+}
+
+#banner2{
+    position: absolute;
+    left: 50vw;
+    top: 2vh;
+    width: 23%;
     z-index: 7;
     cursor: pointer;
 }
@@ -139,12 +148,22 @@ h1{
 #close, #noticeClose{
 
     position: absolute;
+    color: black;
+    right:0.5vw;
+    top:0.5vw;
+    font-size: 2em;
+    font-family: arkibal;
+}
+
+#close2{
+    position: absolute;
     color: white;
     right:0.5vw;
     top:0.5vw;
     font-size: 2em;
     font-family: arkibal;
 }
+
 
 #noticeClose{
     color: black;
@@ -207,12 +226,21 @@ h1{
         height: 0vh;
     }
 
-    .banner{
+    #banner{
         position: absolute;
         left: 0vw;
         top: 26.5vh;
         width: 100%;
         z-index: 10;
+        cursor: pointer;
+    }
+
+    #banner2{
+        position: absolute;
+        left: 0vw;
+        top: 26.5vh;
+        width: 100%;
+        z-index: 9;
         cursor: pointer;
     }
 
